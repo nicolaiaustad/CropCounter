@@ -47,3 +47,6 @@ plt.xlabel("Longitude")
 plt.ylabel("Latitude")
 plt.grid(True)
 plt.savefig('/home/nicolaiaustad/Desktop/newShapefile.png')
+
+
+#Just remove this sentence
