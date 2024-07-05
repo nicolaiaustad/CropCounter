@@ -1,916 +1,113 @@
-INFO:root:Program started.
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program stopped.
-INFO:root:Program started.
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program stopped.
-INFO:root:Program started.
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program started.
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program stopped.
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-INFO:root:Program running...
-2024-06-27 00:13:51,868 Program started.
-2024-06-27 00:13:51,869 Program running...
-2024-06-27 00:13:56,869 Program running...
-2024-06-27 00:14:01,869 Program running...
-2024-06-27 00:14:06,869 Program running...
-2024-06-27 00:14:11,870 Program running...
-2024-06-27 00:14:16,870 Program running...
-2024-06-27 00:14:21,870 Program running...
-2024-06-27 00:14:26,871 Program running...
-2024-06-27 00:14:27,799 Program stopped.
-2024-06-27 00:17:41,533 Program started.
-2024-06-27 00:17:41,534 Program running...
-2024-06-27 00:17:46,534 Program running...
-2024-06-27 00:17:51,534 Program running...
-2024-06-27 00:17:56,535 Program running...
-2024-06-27 00:18:01,535 Program running...
-2024-06-27 00:18:06,535 Program running...
-2024-06-27 00:18:07,711 Program stopped.
-2024-06-28 13:38:10,883 Program started.
-2024-06-28 13:38:10,883 Program running...
-2024-06-28 13:52:12,849 Program started.
-2024-06-28 13:52:12,849 Program running...
-2024-06-28 13:53:58,397 Program started.
-2024-06-28 13:53:58,397 Program running...
-2024-06-28 14:31:59,238 Program started.
-2024-06-28 14:31:59,238 Program running...
-2024-06-28 14:35:47,623 Program started.
-2024-06-28 14:35:47,623 Program running...lol
-2024-06-28 14:42:05,045 Program started.
-2024-06-28 14:42:05,045 Program running...lol
-2024-06-28 14:49:53,226 Program started.
-2024-06-28 14:49:53,227 Program running...lol
-2024-06-28 14:51:02,472 Program started.
-2024-06-28 14:51:02,472 Program running...lol
-2024-06-28 14:51:07,472 Program running...lol
-2024-06-28 14:51:12,472 Program running...lol
-2024-06-28 14:51:17,473 Program running...lol
-2024-06-28 14:51:20,274 Program interrupted by user.
-2024-06-28 14:51:20,275 Program stopped.
-2024-06-28 15:05:34,133 Program started.
-2024-06-28 15:05:34,133 Program running...lol
-2024-06-28 15:21:10,977 Program started.
-2024-06-28 15:21:10,978 Program running...lol
-2024-06-28 15:21:15,978 Program running...lol
-2024-06-28 15:21:20,981 Program running...lol
-2024-06-28 15:21:25,982 Program running...lol
-2024-06-28 15:21:30,982 Program running...lol
-2024-06-28 15:25:13,757 Program started.
-2024-06-28 15:25:13,757 Program running...lol
-2024-06-28 15:25:18,757 Program running...lol
-2024-06-28 15:25:23,757 Program running...lol
-2024-06-28 15:25:28,758 Program running...lol
-2024-06-28 15:25:33,758 Program running...lol
-2024-06-28 15:25:38,758 Program running...lol
-2024-06-28 15:25:43,759 Program running...lol
-2024-06-28 15:27:51,398 Program started.
-2024-06-28 15:27:51,398 Program running...lol
-2024-06-28 15:27:56,398 Program running...lol
-2024-06-28 15:28:01,398 Program running...lol
-2024-06-28 15:28:06,399 Program running...lol
-[2:56:07.208589636] [16288] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:313 [0mlibcamera v0.3.0+65-6ddd79b5
-[2:56:07.216767136] [16292] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:695 [0mlibpisp version v1.0.6 b567f0455680 17-06-2024 (10:20:00)
-[2:56:07.225899670] [16292] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1154 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a to CFE device /dev/media0 and ISP device /dev/media2 using PiSP variant BCM2712_C0
-[2:56:07.227265760] [16288] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:313 [0mlibcamera v0.3.0+65-6ddd79b5
-[2:56:07.234989909] [16296] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:695 [0mlibpisp version v1.0.6 b567f0455680 17-06-2024 (10:20:00)
-[2:56:07.244828090] [16296] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1154 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a to CFE device /dev/media0 and ISP device /dev/media2 using PiSP variant BCM2712_C0
-[2:56:07.246762382] [16288] [1;33m WARN [1;37mV4L2 [1;34mv4l2_pixelformat.cpp:344 [0mUnsupported V4L2 pixel format RPBP
-[2:56:07.247377084] [16288] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 1440x1080-BGR888 (1) 1456x1088-BGGR_PISP_COMP1
-[2:56:07.247473750] [16296] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1450 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a - Selected sensor format: 1456x1088-SBGGR10_1X10 - Selected CFE format: 1456x1088-PC1B
 Traceback (most recent call last):
-  File "/home/nicolaiaustad/Desktop/run.py", line 60, in <module>
-    main()
-  File "/home/nicolaiaustad/Desktop/run.py", line 51, in main
-    capture_image(picam2, counter)
-  File "/home/nicolaiaustad/Desktop/run.py", line 37, in capture_image
-    picam2.capture_file(filename)
-  File "/usr/lib/python3/dist-packages/picamera2/picamera2.py", line 1383, in capture_file
-    return self.dispatch_functions(functions, wait, signal_function)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/picamera2.py", line 1320, in dispatch_functions
-    return job.get_result() if wait else job
-           ^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/job.py", line 79, in get_result
-    return self._future.result(timeout=timeout)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.11/concurrent/futures/_base.py", line 456, in result
-    return self.__get_result()
-           ^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
-    raise self._exception
-  File "/usr/lib/python3/dist-packages/picamera2/job.py", line 48, in execute
-    done, result = self._functions[0]()
-                   ^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/picamera2.py", line 1360, in capture_file_
-    request.save(name, file_output, format=format, exif_data=exif_data)
-  File "/usr/lib/python3/dist-packages/picamera2/request.py", line 173, in save
-    return self.picam2.helpers.save(self.make_image(name), self.get_metadata(), file_output,
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/request.py", line 301, in save
-    img.save(file_output, **keywords)
-  File "/usr/lib/python3/dist-packages/PIL/Image.py", line 2428, in save
-    fp = builtins.open(filename, "w+b")
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: '/home/nicolaiaustad/Desktop/images/Folder_20240628_153204/image_20240628_153204_nogps.jpg'
-[2:56:10.959801726] [16303] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:313 [0mlibcamera v0.3.0+65-6ddd79b5
-[2:56:10.968174003] [16306] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:695 [0mlibpisp version v1.0.6 b567f0455680 17-06-2024 (10:20:00)
-[2:56:10.977589444] [16306] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1154 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a to CFE device /dev/media0 and ISP device /dev/media2 using PiSP variant BCM2712_C0
-[2:56:10.978834534] [16303] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:313 [0mlibcamera v0.3.0+65-6ddd79b5
-[2:56:10.986630016] [16310] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:695 [0mlibpisp version v1.0.6 b567f0455680 17-06-2024 (10:20:00)
-[2:56:10.996277845] [16310] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1154 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a to CFE device /dev/media0 and ISP device /dev/media2 using PiSP variant BCM2712_C0
-[2:56:10.998397026] [16303] [1;33m WARN [1;37mV4L2 [1;34mv4l2_pixelformat.cpp:344 [0mUnsupported V4L2 pixel format RPBP
-[2:56:10.999084321] [16303] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 1440x1080-BGR888 (1) 1456x1088-BGGR_PISP_COMP1
-[2:56:10.999242468] [16310] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1450 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a - Selected sensor format: 1456x1088-SBGGR10_1X10 - Selected CFE format: 1456x1088-PC1B
+  File "/home/nicolaiaustad/Desktop/CropCounter/run.py", line 120, in <module>
+    logging.basicConfig(
+  File "/usr/lib/python3.11/logging/__init__.py", line 2050, in basicConfig
+    h = FileHandler(filename, mode,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/logging/__init__.py", line 1181, in __init__
+    StreamHandler.__init__(self, self._open())
+                                 ^^^^^^^^^^^^
+  File "/usr/lib/python3.11/logging/__init__.py", line 1213, in _open
+    return open_func(self.baseFilename, self.mode,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/home/nicolaiaustad/Desktop/CropCounter/run.log'
 Traceback (most recent call last):
-  File "/home/nicolaiaustad/Desktop/run.py", line 60, in <module>
-    main()
-  File "/home/nicolaiaustad/Desktop/run.py", line 51, in main
-    capture_image(picam2, counter)
-  File "/home/nicolaiaustad/Desktop/run.py", line 37, in capture_image
-    picam2.capture_file(filename)
-  File "/usr/lib/python3/dist-packages/picamera2/picamera2.py", line 1383, in capture_file
-    return self.dispatch_functions(functions, wait, signal_function)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/picamera2.py", line 1320, in dispatch_functions
-    return job.get_result() if wait else job
-           ^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/job.py", line 79, in get_result
-    return self._future.result(timeout=timeout)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.11/concurrent/futures/_base.py", line 456, in result
-    return self.__get_result()
-           ^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
-    raise self._exception
-  File "/usr/lib/python3/dist-packages/picamera2/job.py", line 48, in execute
-    done, result = self._functions[0]()
-                   ^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/picamera2.py", line 1360, in capture_file_
-    request.save(name, file_output, format=format, exif_data=exif_data)
-  File "/usr/lib/python3/dist-packages/picamera2/request.py", line 173, in save
-    return self.picam2.helpers.save(self.make_image(name), self.get_metadata(), file_output,
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/request.py", line 301, in save
-    img.save(file_output, **keywords)
-  File "/usr/lib/python3/dist-packages/PIL/Image.py", line 2428, in save
-    fp = builtins.open(filename, "w+b")
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: '/home/nicolaiaustad/Desktop/images/Folder_20240628_153208/image_20240628_153208_nogps.jpg'
-[2:56:14.705474309] [16318] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:313 [0mlibcamera v0.3.0+65-6ddd79b5
-[2:56:14.713853827] [16321] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:695 [0mlibpisp version v1.0.6 b567f0455680 17-06-2024 (10:20:00)
-[2:56:14.722980399] [16321] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1154 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a to CFE device /dev/media0 and ISP device /dev/media2 using PiSP variant BCM2712_C0
-[2:56:14.724595210] [16318] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:313 [0mlibcamera v0.3.0+65-6ddd79b5
-[2:56:14.732750488] [16325] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:695 [0mlibpisp version v1.0.6 b567f0455680 17-06-2024 (10:20:00)
-[2:56:14.742105799] [16325] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1154 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a to CFE device /dev/media0 and ISP device /dev/media2 using PiSP variant BCM2712_C0
-[2:56:14.744108591] [16318] [1;33m WARN [1;37mV4L2 [1;34mv4l2_pixelformat.cpp:344 [0mUnsupported V4L2 pixel format RPBP
-[2:56:14.744725423] [16318] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 1440x1080-BGR888 (1) 1456x1088-BGGR_PISP_COMP1
-[2:56:14.744816015] [16325] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1450 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a - Selected sensor format: 1456x1088-SBGGR10_1X10 - Selected CFE format: 1456x1088-PC1B
+  File "/home/nicolaiaustad/Desktop/CropCounter/run.py", line 120, in <module>
+    logging.basicConfig(
+  File "/usr/lib/python3.11/logging/__init__.py", line 2050, in basicConfig
+    h = FileHandler(filename, mode,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/logging/__init__.py", line 1181, in __init__
+    StreamHandler.__init__(self, self._open())
+                                 ^^^^^^^^^^^^
+  File "/usr/lib/python3.11/logging/__init__.py", line 1213, in _open
+    return open_func(self.baseFilename, self.mode,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/home/nicolaiaustad/Desktop/CropCounter/run.log'
 Traceback (most recent call last):
-  File "/home/nicolaiaustad/Desktop/run.py", line 60, in <module>
-    main()
-  File "/home/nicolaiaustad/Desktop/run.py", line 51, in main
-    capture_image(picam2, counter)
-  File "/home/nicolaiaustad/Desktop/run.py", line 37, in capture_image
-    picam2.capture_file(filename)
-  File "/usr/lib/python3/dist-packages/picamera2/picamera2.py", line 1383, in capture_file
-    return self.dispatch_functions(functions, wait, signal_function)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/picamera2.py", line 1320, in dispatch_functions
-    return job.get_result() if wait else job
-           ^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/job.py", line 79, in get_result
-    return self._future.result(timeout=timeout)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.11/concurrent/futures/_base.py", line 456, in result
-    return self.__get_result()
-           ^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
-    raise self._exception
-  File "/usr/lib/python3/dist-packages/picamera2/job.py", line 48, in execute
-    done, result = self._functions[0]()
-                   ^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/picamera2.py", line 1360, in capture_file_
-    request.save(name, file_output, format=format, exif_data=exif_data)
-  File "/usr/lib/python3/dist-packages/picamera2/request.py", line 173, in save
-    return self.picam2.helpers.save(self.make_image(name), self.get_metadata(), file_output,
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/request.py", line 301, in save
-    img.save(file_output, **keywords)
-  File "/usr/lib/python3/dist-packages/PIL/Image.py", line 2428, in save
-    fp = builtins.open(filename, "w+b")
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: '/home/nicolaiaustad/Desktop/images/Folder_20240628_153212/image_20240628_153212_nogps.jpg'
-[2:56:18.205717346] [16333] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:313 [0mlibcamera v0.3.0+65-6ddd79b5
-[2:56:18.213871142] [16336] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:695 [0mlibpisp version v1.0.6 b567f0455680 17-06-2024 (10:20:00)
-[2:56:18.222962696] [16336] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1154 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a to CFE device /dev/media0 and ISP device /dev/media2 using PiSP variant BCM2712_C0
-[2:56:18.224305952] [16333] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:313 [0mlibcamera v0.3.0+65-6ddd79b5
-[2:56:18.231962693] [16339] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:695 [0mlibpisp version v1.0.6 b567f0455680 17-06-2024 (10:20:00)
-[2:56:18.241733356] [16339] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1154 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a to CFE device /dev/media0 and ISP device /dev/media2 using PiSP variant BCM2712_C0
-[2:56:18.243735055] [16333] [1;33m WARN [1;37mV4L2 [1;34mv4l2_pixelformat.cpp:344 [0mUnsupported V4L2 pixel format RPBP
-[2:56:18.244443183] [16333] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 1440x1080-BGR888 (1) 1456x1088-BGGR_PISP_COMP1
-[2:56:18.244581201] [16339] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1450 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a - Selected sensor format: 1456x1088-SBGGR10_1X10 - Selected CFE format: 1456x1088-PC1B
+  File "/home/nicolaiaustad/Desktop/CropCounter/run.py", line 120, in <module>
+    logging.basicConfig(
+  File "/usr/lib/python3.11/logging/__init__.py", line 2050, in basicConfig
+    h = FileHandler(filename, mode,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/logging/__init__.py", line 1181, in __init__
+    StreamHandler.__init__(self, self._open())
+                                 ^^^^^^^^^^^^
+  File "/usr/lib/python3.11/logging/__init__.py", line 1213, in _open
+    return open_func(self.baseFilename, self.mode,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/home/nicolaiaustad/Desktop/CropCounter/run.log'
 Traceback (most recent call last):
-  File "/home/nicolaiaustad/Desktop/run.py", line 60, in <module>
-    main()
-  File "/home/nicolaiaustad/Desktop/run.py", line 51, in main
-    capture_image(picam2, counter)
-  File "/home/nicolaiaustad/Desktop/run.py", line 37, in capture_image
-    picam2.capture_file(filename)
-  File "/usr/lib/python3/dist-packages/picamera2/picamera2.py", line 1383, in capture_file
-    return self.dispatch_functions(functions, wait, signal_function)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/picamera2.py", line 1320, in dispatch_functions
-    return job.get_result() if wait else job
-           ^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/job.py", line 79, in get_result
-    return self._future.result(timeout=timeout)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.11/concurrent/futures/_base.py", line 456, in result
-    return self.__get_result()
-           ^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
-    raise self._exception
-  File "/usr/lib/python3/dist-packages/picamera2/job.py", line 48, in execute
-    done, result = self._functions[0]()
-                   ^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/picamera2.py", line 1360, in capture_file_
-    request.save(name, file_output, format=format, exif_data=exif_data)
-  File "/usr/lib/python3/dist-packages/picamera2/request.py", line 173, in save
-    return self.picam2.helpers.save(self.make_image(name), self.get_metadata(), file_output,
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/request.py", line 301, in save
-    img.save(file_output, **keywords)
-  File "/usr/lib/python3/dist-packages/PIL/Image.py", line 2428, in save
-    fp = builtins.open(filename, "w+b")
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: '/home/nicolaiaustad/Desktop/images/Folder_20240628_153215/image_20240628_153215_nogps.jpg'
-[2:56:21.229765217] [16346] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:313 [0mlibcamera v0.3.0+65-6ddd79b5
-[2:56:21.237905217] [16349] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:695 [0mlibpisp version v1.0.6 b567f0455680 17-06-2024 (10:20:00)
-[2:56:21.247006529] [16349] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1154 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a to CFE device /dev/media0 and ISP device /dev/media2 using PiSP variant BCM2712_C0
-[2:56:21.248364712] [16346] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:313 [0mlibcamera v0.3.0+65-6ddd79b5
-[2:56:21.256283990] [16352] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:695 [0mlibpisp version v1.0.6 b567f0455680 17-06-2024 (10:20:00)
-[2:56:21.265780894] [16352] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1154 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a to CFE device /dev/media0 and ISP device /dev/media2 using PiSP variant BCM2712_C0
-[2:56:21.267803611] [16346] [1;33m WARN [1;37mV4L2 [1;34mv4l2_pixelformat.cpp:344 [0mUnsupported V4L2 pixel format RPBP
-[2:56:21.268504647] [16346] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 1440x1080-BGR888 (1) 1456x1088-BGGR_PISP_COMP1
-[2:56:21.268612480] [16352] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1450 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a - Selected sensor format: 1456x1088-SBGGR10_1X10 - Selected CFE format: 1456x1088-PC1B
+  File "/home/nicolaiaustad/Desktop/CropCounter/run.py", line 120, in <module>
+    logging.basicConfig(
+  File "/usr/lib/python3.11/logging/__init__.py", line 2050, in basicConfig
+    h = FileHandler(filename, mode,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/logging/__init__.py", line 1181, in __init__
+    StreamHandler.__init__(self, self._open())
+                                 ^^^^^^^^^^^^
+  File "/usr/lib/python3.11/logging/__init__.py", line 1213, in _open
+    return open_func(self.baseFilename, self.mode,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/home/nicolaiaustad/Desktop/CropCounter/run.log'
 Traceback (most recent call last):
-  File "/home/nicolaiaustad/Desktop/run.py", line 60, in <module>
-    main()
-  File "/home/nicolaiaustad/Desktop/run.py", line 51, in main
-    capture_image(picam2, counter)
-  File "/home/nicolaiaustad/Desktop/run.py", line 37, in capture_image
-    picam2.capture_file(filename)
-  File "/usr/lib/python3/dist-packages/picamera2/picamera2.py", line 1383, in capture_file
-    return self.dispatch_functions(functions, wait, signal_function)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/picamera2.py", line 1320, in dispatch_functions
-    return job.get_result() if wait else job
-           ^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/job.py", line 79, in get_result
-    return self._future.result(timeout=timeout)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.11/concurrent/futures/_base.py", line 456, in result
-    return self.__get_result()
-           ^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
-    raise self._exception
-  File "/usr/lib/python3/dist-packages/picamera2/job.py", line 48, in execute
-    done, result = self._functions[0]()
-                   ^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/picamera2.py", line 1360, in capture_file_
-    request.save(name, file_output, format=format, exif_data=exif_data)
-  File "/usr/lib/python3/dist-packages/picamera2/request.py", line 173, in save
-    return self.picam2.helpers.save(self.make_image(name), self.get_metadata(), file_output,
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/request.py", line 301, in save
-    img.save(file_output, **keywords)
-  File "/usr/lib/python3/dist-packages/PIL/Image.py", line 2428, in save
-    fp = builtins.open(filename, "w+b")
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: '/home/nicolaiaustad/Desktop/images/Folder_20240628_153218/image_20240628_153218_nogps.jpg'
-[2:56:24.210785483] [16359] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:313 [0mlibcamera v0.3.0+65-6ddd79b5
-[2:56:24.219021242] [16362] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:695 [0mlibpisp version v1.0.6 b567f0455680 17-06-2024 (10:20:00)
-[2:56:24.228359369] [16362] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1154 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a to CFE device /dev/media0 and ISP device /dev/media2 using PiSP variant BCM2712_C0
-[2:56:24.229640607] [16359] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:313 [0mlibcamera v0.3.0+65-6ddd79b5
-[2:56:24.237469052] [16365] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:695 [0mlibpisp version v1.0.6 b567f0455680 17-06-2024 (10:20:00)
-[2:56:24.247650973] [16365] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1154 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a to CFE device /dev/media0 and ISP device /dev/media2 using PiSP variant BCM2712_C0
-[2:56:24.249581783] [16359] [1;33m WARN [1;37mV4L2 [1;34mv4l2_pixelformat.cpp:344 [0mUnsupported V4L2 pixel format RPBP
-[2:56:24.250224911] [16359] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 1440x1080-BGR888 (1) 1456x1088-BGGR_PISP_COMP1
-[2:56:24.250324485] [16365] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1450 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a - Selected sensor format: 1456x1088-SBGGR10_1X10 - Selected CFE format: 1456x1088-PC1B
+  File "/home/nicolaiaustad/Desktop/CropCounter/run.py", line 120, in <module>
+    logging.basicConfig(
+  File "/usr/lib/python3.11/logging/__init__.py", line 2050, in basicConfig
+    h = FileHandler(filename, mode,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/logging/__init__.py", line 1181, in __init__
+    StreamHandler.__init__(self, self._open())
+                                 ^^^^^^^^^^^^
+  File "/usr/lib/python3.11/logging/__init__.py", line 1213, in _open
+    return open_func(self.baseFilename, self.mode,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/home/nicolaiaustad/Desktop/CropCounter/run.log'
 Traceback (most recent call last):
-  File "/home/nicolaiaustad/Desktop/run.py", line 60, in <module>
-    main()
-  File "/home/nicolaiaustad/Desktop/run.py", line 51, in main
-    capture_image(picam2, counter)
-  File "/home/nicolaiaustad/Desktop/run.py", line 37, in capture_image
-    picam2.capture_file(filename)
-  File "/usr/lib/python3/dist-packages/picamera2/picamera2.py", line 1383, in capture_file
-    return self.dispatch_functions(functions, wait, signal_function)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/picamera2.py", line 1320, in dispatch_functions
-    return job.get_result() if wait else job
-           ^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/job.py", line 79, in get_result
-    return self._future.result(timeout=timeout)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.11/concurrent/futures/_base.py", line 456, in result
-    return self.__get_result()
-           ^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
-    raise self._exception
-  File "/usr/lib/python3/dist-packages/picamera2/job.py", line 48, in execute
-    done, result = self._functions[0]()
-                   ^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/picamera2.py", line 1360, in capture_file_
-    request.save(name, file_output, format=format, exif_data=exif_data)
-  File "/usr/lib/python3/dist-packages/picamera2/request.py", line 173, in save
-    return self.picam2.helpers.save(self.make_image(name), self.get_metadata(), file_output,
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/request.py", line 301, in save
-    img.save(file_output, **keywords)
-  File "/usr/lib/python3/dist-packages/PIL/Image.py", line 2428, in save
-    fp = builtins.open(filename, "w+b")
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: '/home/nicolaiaustad/Desktop/images/Folder_20240628_153221/image_20240628_153221_nogps.jpg'
-[2:56:27.219566390] [16372] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:313 [0mlibcamera v0.3.0+65-6ddd79b5
-[2:56:27.227757223] [16375] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:695 [0mlibpisp version v1.0.6 b567f0455680 17-06-2024 (10:20:00)
-[2:56:27.236906128] [16375] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1154 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a to CFE device /dev/media0 and ISP device /dev/media2 using PiSP variant BCM2712_C0
-[2:56:27.238215125] [16372] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:313 [0mlibcamera v0.3.0+65-6ddd79b5
-[2:56:27.246168532] [16378] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:695 [0mlibpisp version v1.0.6 b567f0455680 17-06-2024 (10:20:00)
-[2:56:27.255759381] [16378] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1154 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a to CFE device /dev/media0 and ISP device /dev/media2 using PiSP variant BCM2712_C0
-[2:56:27.257793932] [16372] [1;33m WARN [1;37mV4L2 [1;34mv4l2_pixelformat.cpp:344 [0mUnsupported V4L2 pixel format RPBP
-[2:56:27.258425300] [16372] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 1440x1080-BGR888 (1) 1456x1088-BGGR_PISP_COMP1
-[2:56:27.258520263] [16378] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1450 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a - Selected sensor format: 1456x1088-SBGGR10_1X10 - Selected CFE format: 1456x1088-PC1B
+  File "/home/nicolaiaustad/Desktop/CropCounter/run.py", line 120, in <module>
+    logging.basicConfig(
+  File "/usr/lib/python3.11/logging/__init__.py", line 2050, in basicConfig
+    h = FileHandler(filename, mode,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/logging/__init__.py", line 1181, in __init__
+    StreamHandler.__init__(self, self._open())
+                                 ^^^^^^^^^^^^
+  File "/usr/lib/python3.11/logging/__init__.py", line 1213, in _open
+    return open_func(self.baseFilename, self.mode,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/home/nicolaiaustad/Desktop/CropCounter/run.log'
 Traceback (most recent call last):
-  File "/home/nicolaiaustad/Desktop/run.py", line 60, in <module>
-    main()
-  File "/home/nicolaiaustad/Desktop/run.py", line 51, in main
-    capture_image(picam2, counter)
-  File "/home/nicolaiaustad/Desktop/run.py", line 37, in capture_image
-    picam2.capture_file(filename)
-  File "/usr/lib/python3/dist-packages/picamera2/picamera2.py", line 1383, in capture_file
-    return self.dispatch_functions(functions, wait, signal_function)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/picamera2.py", line 1320, in dispatch_functions
-    return job.get_result() if wait else job
-           ^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/job.py", line 79, in get_result
-    return self._future.result(timeout=timeout)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.11/concurrent/futures/_base.py", line 456, in result
-    return self.__get_result()
-           ^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
-    raise self._exception
-  File "/usr/lib/python3/dist-packages/picamera2/job.py", line 48, in execute
-    done, result = self._functions[0]()
-                   ^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/picamera2.py", line 1360, in capture_file_
-    request.save(name, file_output, format=format, exif_data=exif_data)
-  File "/usr/lib/python3/dist-packages/picamera2/request.py", line 173, in save
-    return self.picam2.helpers.save(self.make_image(name), self.get_metadata(), file_output,
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/request.py", line 301, in save
-    img.save(file_output, **keywords)
-  File "/usr/lib/python3/dist-packages/PIL/Image.py", line 2428, in save
-    fp = builtins.open(filename, "w+b")
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: '/home/nicolaiaustad/Desktop/images/Folder_20240628_153224/image_20240628_153224_nogps.jpg'
-[2:56:30.212210722] [16387] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:313 [0mlibcamera v0.3.0+65-6ddd79b5
-[2:56:30.220940258] [16390] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:695 [0mlibpisp version v1.0.6 b567f0455680 17-06-2024 (10:20:00)
-[2:56:30.230044089] [16390] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1154 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a to CFE device /dev/media0 and ISP device /dev/media2 using PiSP variant BCM2712_C0
-[2:56:30.231321123] [16387] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:313 [0mlibcamera v0.3.0+65-6ddd79b5
-[2:56:30.239362715] [16393] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:695 [0mlibpisp version v1.0.6 b567f0455680 17-06-2024 (10:20:00)
-[2:56:30.248843934] [16393] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1154 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a to CFE device /dev/media0 and ISP device /dev/media2 using PiSP variant BCM2712_C0
-[2:56:30.250859356] [16387] [1;33m WARN [1;37mV4L2 [1;34mv4l2_pixelformat.cpp:344 [0mUnsupported V4L2 pixel format RPBP
-[2:56:30.251525095] [16387] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 1440x1080-BGR888 (1) 1456x1088-BGGR_PISP_COMP1
-[2:56:30.251634391] [16393] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1450 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a - Selected sensor format: 1456x1088-SBGGR10_1X10 - Selected CFE format: 1456x1088-PC1B
+  File "/home/nicolaiaustad/Desktop/CropCounter/run.py", line 120, in <module>
+    logging.basicConfig(
+  File "/usr/lib/python3.11/logging/__init__.py", line 2050, in basicConfig
+    h = FileHandler(filename, mode,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/logging/__init__.py", line 1181, in __init__
+    StreamHandler.__init__(self, self._open())
+                                 ^^^^^^^^^^^^
+  File "/usr/lib/python3.11/logging/__init__.py", line 1213, in _open
+    return open_func(self.baseFilename, self.mode,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/home/nicolaiaustad/Desktop/CropCounter/run.log'
 Traceback (most recent call last):
-  File "/home/nicolaiaustad/Desktop/run.py", line 60, in <module>
-    main()
-  File "/home/nicolaiaustad/Desktop/run.py", line 51, in main
-    capture_image(picam2, counter)
-  File "/home/nicolaiaustad/Desktop/run.py", line 37, in capture_image
-    picam2.capture_file(filename)
-  File "/usr/lib/python3/dist-packages/picamera2/picamera2.py", line 1383, in capture_file
-    return self.dispatch_functions(functions, wait, signal_function)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/picamera2.py", line 1320, in dispatch_functions
-    return job.get_result() if wait else job
-           ^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/job.py", line 79, in get_result
-    return self._future.result(timeout=timeout)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.11/concurrent/futures/_base.py", line 456, in result
-    return self.__get_result()
-           ^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
-    raise self._exception
-  File "/usr/lib/python3/dist-packages/picamera2/job.py", line 48, in execute
-    done, result = self._functions[0]()
-                   ^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/picamera2.py", line 1360, in capture_file_
-    request.save(name, file_output, format=format, exif_data=exif_data)
-  File "/usr/lib/python3/dist-packages/picamera2/request.py", line 173, in save
-    return self.picam2.helpers.save(self.make_image(name), self.get_metadata(), file_output,
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/request.py", line 301, in save
-    img.save(file_output, **keywords)
-  File "/usr/lib/python3/dist-packages/PIL/Image.py", line 2428, in save
-    fp = builtins.open(filename, "w+b")
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: '/home/nicolaiaustad/Desktop/images/Folder_20240628_153227/image_20240628_153227_nogps.jpg'
-[2:56:33.223753215] [16400] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:313 [0mlibcamera v0.3.0+65-6ddd79b5
-[2:56:33.231953752] [16403] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:695 [0mlibpisp version v1.0.6 b567f0455680 17-06-2024 (10:20:00)
-[2:56:33.241047860] [16403] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1154 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a to CFE device /dev/media0 and ISP device /dev/media2 using PiSP variant BCM2712_C0
-[2:56:33.242342783] [16400] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:313 [0mlibcamera v0.3.0+65-6ddd79b5
-[2:56:33.250005914] [16406] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:695 [0mlibpisp version v1.0.6 b567f0455680 17-06-2024 (10:20:00)
-[2:56:33.259653632] [16406] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1154 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a to CFE device /dev/media0 and ISP device /dev/media2 using PiSP variant BCM2712_C0
-[2:56:33.261693165] [16400] [1;33m WARN [1;37mV4L2 [1;34mv4l2_pixelformat.cpp:344 [0mUnsupported V4L2 pixel format RPBP
-[2:56:33.262360997] [16400] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 1440x1080-BGR888 (1) 1456x1088-BGGR_PISP_COMP1
-[2:56:33.262457941] [16406] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1450 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a - Selected sensor format: 1456x1088-SBGGR10_1X10 - Selected CFE format: 1456x1088-PC1B
-Traceback (most recent call last):
-  File "/home/nicolaiaustad/Desktop/run.py", line 60, in <module>
-    main()
-  File "/home/nicolaiaustad/Desktop/run.py", line 51, in main
-    capture_image(picam2, counter)
-  File "/home/nicolaiaustad/Desktop/run.py", line 37, in capture_image
-    picam2.capture_file(filename)
-  File "/usr/lib/python3/dist-packages/picamera2/picamera2.py", line 1383, in capture_file
-    return self.dispatch_functions(functions, wait, signal_function)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/picamera2.py", line 1320, in dispatch_functions
-    return job.get_result() if wait else job
-           ^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/job.py", line 79, in get_result
-    return self._future.result(timeout=timeout)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.11/concurrent/futures/_base.py", line 456, in result
-    return self.__get_result()
-           ^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
-    raise self._exception
-  File "/usr/lib/python3/dist-packages/picamera2/job.py", line 48, in execute
-    done, result = self._functions[0]()
-                   ^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/picamera2.py", line 1360, in capture_file_
-    request.save(name, file_output, format=format, exif_data=exif_data)
-  File "/usr/lib/python3/dist-packages/picamera2/request.py", line 173, in save
-    return self.picam2.helpers.save(self.make_image(name), self.get_metadata(), file_output,
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/request.py", line 301, in save
-    img.save(file_output, **keywords)
-  File "/usr/lib/python3/dist-packages/PIL/Image.py", line 2428, in save
-    fp = builtins.open(filename, "w+b")
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: '/home/nicolaiaustad/Desktop/images/Folder_20240628_153230/image_20240628_153230_nogps.jpg'
-[2:56:36.208198548] [16413] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:313 [0mlibcamera v0.3.0+65-6ddd79b5
-[2:56:36.216680621] [16416] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:695 [0mlibpisp version v1.0.6 b567f0455680 17-06-2024 (10:20:00)
-[2:56:36.225959488] [16416] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1154 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a to CFE device /dev/media0 and ISP device /dev/media2 using PiSP variant BCM2712_C0
-[2:56:36.227497948] [16413] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:313 [0mlibcamera v0.3.0+65-6ddd79b5
-[2:56:36.235274800] [16419] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:695 [0mlibpisp version v1.0.6 b567f0455680 17-06-2024 (10:20:00)
-[2:56:36.245010574] [16419] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1154 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a to CFE device /dev/media0 and ISP device /dev/media2 using PiSP variant BCM2712_C0
-[2:56:36.247051625] [16413] [1;33m WARN [1;37mV4L2 [1;34mv4l2_pixelformat.cpp:344 [0mUnsupported V4L2 pixel format RPBP
-[2:56:36.247742253] [16413] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 1440x1080-BGR888 (1) 1456x1088-BGGR_PISP_COMP1
-[2:56:36.247880253] [16419] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1450 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a - Selected sensor format: 1456x1088-SBGGR10_1X10 - Selected CFE format: 1456x1088-PC1B
-Traceback (most recent call last):
-  File "/home/nicolaiaustad/Desktop/run.py", line 60, in <module>
-    main()
-  File "/home/nicolaiaustad/Desktop/run.py", line 51, in main
-    capture_image(picam2, counter)
-  File "/home/nicolaiaustad/Desktop/run.py", line 37, in capture_image
-    picam2.capture_file(filename)
-  File "/usr/lib/python3/dist-packages/picamera2/picamera2.py", line 1383, in capture_file
-    return self.dispatch_functions(functions, wait, signal_function)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/picamera2.py", line 1320, in dispatch_functions
-    return job.get_result() if wait else job
-           ^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/job.py", line 79, in get_result
-    return self._future.result(timeout=timeout)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.11/concurrent/futures/_base.py", line 456, in result
-    return self.__get_result()
-           ^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
-    raise self._exception
-  File "/usr/lib/python3/dist-packages/picamera2/job.py", line 48, in execute
-    done, result = self._functions[0]()
-                   ^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/picamera2.py", line 1360, in capture_file_
-    request.save(name, file_output, format=format, exif_data=exif_data)
-  File "/usr/lib/python3/dist-packages/picamera2/request.py", line 173, in save
-    return self.picam2.helpers.save(self.make_image(name), self.get_metadata(), file_output,
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/request.py", line 301, in save
-    img.save(file_output, **keywords)
-  File "/usr/lib/python3/dist-packages/PIL/Image.py", line 2428, in save
-    fp = builtins.open(filename, "w+b")
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: '/home/nicolaiaustad/Desktop/images/Folder_20240628_153233/image_20240628_153233_nogps.jpg'
-[2:56:39.215620254] [16426] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:313 [0mlibcamera v0.3.0+65-6ddd79b5
-[2:56:39.224323567] [16429] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:695 [0mlibpisp version v1.0.6 b567f0455680 17-06-2024 (10:20:00)
-[2:56:39.233607324] [16429] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1154 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a to CFE device /dev/media0 and ISP device /dev/media2 using PiSP variant BCM2712_C0
-[2:56:39.235185209] [16426] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:313 [0mlibcamera v0.3.0+65-6ddd79b5
-[2:56:39.243505542] [16432] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:695 [0mlibpisp version v1.0.6 b567f0455680 17-06-2024 (10:20:00)
-[2:56:39.253234260] [16432] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1154 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a to CFE device /dev/media0 and ISP device /dev/media2 using PiSP variant BCM2712_C0
-[2:56:39.255166070] [16426] [1;33m WARN [1;37mV4L2 [1;34mv4l2_pixelformat.cpp:344 [0mUnsupported V4L2 pixel format RPBP
-[2:56:39.255783902] [16426] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 1440x1080-BGR888 (1) 1456x1088-BGGR_PISP_COMP1
-[2:56:39.255882161] [16432] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1450 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a - Selected sensor format: 1456x1088-SBGGR10_1X10 - Selected CFE format: 1456x1088-PC1B
-Traceback (most recent call last):
-  File "/home/nicolaiaustad/Desktop/run.py", line 60, in <module>
-    main()
-  File "/home/nicolaiaustad/Desktop/run.py", line 51, in main
-    capture_image(picam2, counter)
-  File "/home/nicolaiaustad/Desktop/run.py", line 37, in capture_image
-    picam2.capture_file(filename)
-  File "/usr/lib/python3/dist-packages/picamera2/picamera2.py", line 1383, in capture_file
-    return self.dispatch_functions(functions, wait, signal_function)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/picamera2.py", line 1320, in dispatch_functions
-    return job.get_result() if wait else job
-           ^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/job.py", line 79, in get_result
-    return self._future.result(timeout=timeout)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.11/concurrent/futures/_base.py", line 456, in result
-    return self.__get_result()
-           ^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
-    raise self._exception
-  File "/usr/lib/python3/dist-packages/picamera2/job.py", line 48, in execute
-    done, result = self._functions[0]()
-                   ^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/picamera2.py", line 1360, in capture_file_
-    request.save(name, file_output, format=format, exif_data=exif_data)
-  File "/usr/lib/python3/dist-packages/picamera2/request.py", line 173, in save
-    return self.picam2.helpers.save(self.make_image(name), self.get_metadata(), file_output,
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/request.py", line 301, in save
-    img.save(file_output, **keywords)
-  File "/usr/lib/python3/dist-packages/PIL/Image.py", line 2428, in save
-    fp = builtins.open(filename, "w+b")
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: '/home/nicolaiaustad/Desktop/images/Folder_20240628_153236/image_20240628_153236_nogps.jpg'
-[2:56:42.203718208] [16440] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:313 [0mlibcamera v0.3.0+65-6ddd79b5
-[2:56:42.211709727] [16443] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:695 [0mlibpisp version v1.0.6 b567f0455680 17-06-2024 (10:20:00)
-[2:56:42.220863150] [16443] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1154 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a to CFE device /dev/media0 and ISP device /dev/media2 using PiSP variant BCM2712_C0
-[2:56:42.222169443] [16440] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:313 [0mlibcamera v0.3.0+65-6ddd79b5
-[2:56:42.229795352] [16446] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:695 [0mlibpisp version v1.0.6 b567f0455680 17-06-2024 (10:20:00)
-[2:56:42.239192608] [16446] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1154 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a to CFE device /dev/media0 and ISP device /dev/media2 using PiSP variant BCM2712_C0
-[2:56:42.241256900] [16440] [1;33m WARN [1;37mV4L2 [1;34mv4l2_pixelformat.cpp:344 [0mUnsupported V4L2 pixel format RPBP
-[2:56:42.241860380] [16440] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 1440x1080-BGR888 (1) 1456x1088-BGGR_PISP_COMP1
-[2:56:42.241956713] [16446] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1450 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a - Selected sensor format: 1456x1088-SBGGR10_1X10 - Selected CFE format: 1456x1088-PC1B
-Traceback (most recent call last):
-  File "/home/nicolaiaustad/Desktop/run.py", line 60, in <module>
-    main()
-  File "/home/nicolaiaustad/Desktop/run.py", line 51, in main
-    capture_image(picam2, counter)
-  File "/home/nicolaiaustad/Desktop/run.py", line 37, in capture_image
-    picam2.capture_file(filename)
-  File "/usr/lib/python3/dist-packages/picamera2/picamera2.py", line 1383, in capture_file
-    return self.dispatch_functions(functions, wait, signal_function)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/picamera2.py", line 1320, in dispatch_functions
-    return job.get_result() if wait else job
-           ^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/job.py", line 79, in get_result
-    return self._future.result(timeout=timeout)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.11/concurrent/futures/_base.py", line 456, in result
-    return self.__get_result()
-           ^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
-    raise self._exception
-  File "/usr/lib/python3/dist-packages/picamera2/job.py", line 48, in execute
-    done, result = self._functions[0]()
-                   ^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/picamera2.py", line 1360, in capture_file_
-    request.save(name, file_output, format=format, exif_data=exif_data)
-  File "/usr/lib/python3/dist-packages/picamera2/request.py", line 173, in save
-    return self.picam2.helpers.save(self.make_image(name), self.get_metadata(), file_output,
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/request.py", line 301, in save
-    img.save(file_output, **keywords)
-  File "/usr/lib/python3/dist-packages/PIL/Image.py", line 2428, in save
-    fp = builtins.open(filename, "w+b")
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: '/home/nicolaiaustad/Desktop/images/Folder_20240628_153239/image_20240628_153239_nogps.jpg'
-[2:56:45.234950045] [16453] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:313 [0mlibcamera v0.3.0+65-6ddd79b5
-[2:56:45.243764876] [16456] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:695 [0mlibpisp version v1.0.6 b567f0455680 17-06-2024 (10:20:00)
-[2:56:45.253271484] [16456] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1154 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a to CFE device /dev/media0 and ISP device /dev/media2 using PiSP variant BCM2712_C0
-[2:56:45.254832740] [16453] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:313 [0mlibcamera v0.3.0+65-6ddd79b5
-[2:56:45.262795925] [16459] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:695 [0mlibpisp version v1.0.6 b567f0455680 17-06-2024 (10:20:00)
-[2:56:45.272618384] [16459] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1154 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a to CFE device /dev/media0 and ISP device /dev/media2 using PiSP variant BCM2712_C0
-[2:56:45.274516824] [16453] [1;33m WARN [1;37mV4L2 [1;34mv4l2_pixelformat.cpp:344 [0mUnsupported V4L2 pixel format RPBP
-[2:56:45.275127527] [16453] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 1440x1080-BGR888 (1) 1456x1088-BGGR_PISP_COMP1
-[2:56:45.275223415] [16459] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1450 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a - Selected sensor format: 1456x1088-SBGGR10_1X10 - Selected CFE format: 1456x1088-PC1B
-Traceback (most recent call last):
-  File "/home/nicolaiaustad/Desktop/run.py", line 60, in <module>
-    main()
-  File "/home/nicolaiaustad/Desktop/run.py", line 51, in main
-    capture_image(picam2, counter)
-  File "/home/nicolaiaustad/Desktop/run.py", line 37, in capture_image
-    picam2.capture_file(filename)
-  File "/usr/lib/python3/dist-packages/picamera2/picamera2.py", line 1383, in capture_file
-    return self.dispatch_functions(functions, wait, signal_function)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/picamera2.py", line 1320, in dispatch_functions
-    return job.get_result() if wait else job
-           ^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/job.py", line 79, in get_result
-    return self._future.result(timeout=timeout)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.11/concurrent/futures/_base.py", line 456, in result
-    return self.__get_result()
-           ^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
-    raise self._exception
-  File "/usr/lib/python3/dist-packages/picamera2/job.py", line 48, in execute
-    done, result = self._functions[0]()
-                   ^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/picamera2.py", line 1360, in capture_file_
-    request.save(name, file_output, format=format, exif_data=exif_data)
-  File "/usr/lib/python3/dist-packages/picamera2/request.py", line 173, in save
-    return self.picam2.helpers.save(self.make_image(name), self.get_metadata(), file_output,
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/request.py", line 301, in save
-    img.save(file_output, **keywords)
-  File "/usr/lib/python3/dist-packages/PIL/Image.py", line 2428, in save
-    fp = builtins.open(filename, "w+b")
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: '/home/nicolaiaustad/Desktop/images/Folder_20240628_153242/image_20240628_153242_nogps.jpg'
-[2:56:48.453896395] [16466] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:313 [0mlibcamera v0.3.0+65-6ddd79b5
-[2:56:48.462051099] [16469] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:695 [0mlibpisp version v1.0.6 b567f0455680 17-06-2024 (10:20:00)
-[2:56:48.471192041] [16469] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1154 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a to CFE device /dev/media0 and ISP device /dev/media2 using PiSP variant BCM2712_C0
-[2:56:48.472518186] [16466] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:313 [0mlibcamera v0.3.0+65-6ddd79b5
-[2:56:48.480492575] [16473] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:695 [0mlibpisp version v1.0.6 b567f0455680 17-06-2024 (10:20:00)
-[2:56:48.489928312] [16473] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1154 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a to CFE device /dev/media0 and ISP device /dev/media2 using PiSP variant BCM2712_C0
-[2:56:48.491913993] [16466] [1;33m WARN [1;37mV4L2 [1;34mv4l2_pixelformat.cpp:344 [0mUnsupported V4L2 pixel format RPBP
-[2:56:48.492621806] [16466] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 1440x1080-BGR888 (1) 1456x1088-BGGR_PISP_COMP1
-[2:56:48.492727176] [16473] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1450 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a - Selected sensor format: 1456x1088-SBGGR10_1X10 - Selected CFE format: 1456x1088-PC1B
-Traceback (most recent call last):
-  File "/home/nicolaiaustad/Desktop/run.py", line 60, in <module>
-    main()
-  File "/home/nicolaiaustad/Desktop/run.py", line 51, in main
-    capture_image(picam2, counter)
-  File "/home/nicolaiaustad/Desktop/run.py", line 37, in capture_image
-    picam2.capture_file(filename)
-  File "/usr/lib/python3/dist-packages/picamera2/picamera2.py", line 1383, in capture_file
-    return self.dispatch_functions(functions, wait, signal_function)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/picamera2.py", line 1320, in dispatch_functions
-    return job.get_result() if wait else job
-           ^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/job.py", line 79, in get_result
-    return self._future.result(timeout=timeout)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.11/concurrent/futures/_base.py", line 456, in result
-    return self.__get_result()
-           ^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
-    raise self._exception
-  File "/usr/lib/python3/dist-packages/picamera2/job.py", line 48, in execute
-    done, result = self._functions[0]()
-                   ^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/picamera2.py", line 1360, in capture_file_
-    request.save(name, file_output, format=format, exif_data=exif_data)
-  File "/usr/lib/python3/dist-packages/picamera2/request.py", line 173, in save
-    return self.picam2.helpers.save(self.make_image(name), self.get_metadata(), file_output,
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/request.py", line 301, in save
-    img.save(file_output, **keywords)
-  File "/usr/lib/python3/dist-packages/PIL/Image.py", line 2428, in save
-    fp = builtins.open(filename, "w+b")
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: '/home/nicolaiaustad/Desktop/images/Folder_20240628_153245/image_20240628_153245_nogps.jpg'
-[2:56:51.457505148] [16480] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:313 [0mlibcamera v0.3.0+65-6ddd79b5
-[2:56:51.465535851] [16483] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:695 [0mlibpisp version v1.0.6 b567f0455680 17-06-2024 (10:20:00)
-[2:56:51.474634849] [16483] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1154 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a to CFE device /dev/media0 and ISP device /dev/media2 using PiSP variant BCM2712_C0
-[2:56:51.475977161] [16480] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:313 [0mlibcamera v0.3.0+65-6ddd79b5
-[2:56:51.483821180] [16486] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:695 [0mlibpisp version v1.0.6 b567f0455680 17-06-2024 (10:20:00)
-[2:56:51.493273103] [16486] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1154 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a to CFE device /dev/media0 and ISP device /dev/media2 using PiSP variant BCM2712_C0
-[2:56:51.495369987] [16480] [1;33m WARN [1;37mV4L2 [1;34mv4l2_pixelformat.cpp:344 [0mUnsupported V4L2 pixel format RPBP
-[2:56:51.495991837] [16480] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 1440x1080-BGR888 (1) 1456x1088-BGGR_PISP_COMP1
-[2:56:51.496168818] [16486] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1450 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a - Selected sensor format: 1456x1088-SBGGR10_1X10 - Selected CFE format: 1456x1088-PC1B
-Traceback (most recent call last):
-  File "/home/nicolaiaustad/Desktop/run.py", line 60, in <module>
-    main()
-  File "/home/nicolaiaustad/Desktop/run.py", line 51, in main
-    capture_image(picam2, counter)
-  File "/home/nicolaiaustad/Desktop/run.py", line 37, in capture_image
-    picam2.capture_file(filename)
-  File "/usr/lib/python3/dist-packages/picamera2/picamera2.py", line 1383, in capture_file
-    return self.dispatch_functions(functions, wait, signal_function)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/picamera2.py", line 1320, in dispatch_functions
-    return job.get_result() if wait else job
-           ^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/job.py", line 79, in get_result
-    return self._future.result(timeout=timeout)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.11/concurrent/futures/_base.py", line 456, in result
-    return self.__get_result()
-           ^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
-    raise self._exception
-  File "/usr/lib/python3/dist-packages/picamera2/job.py", line 48, in execute
-    done, result = self._functions[0]()
-                   ^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/picamera2.py", line 1360, in capture_file_
-    request.save(name, file_output, format=format, exif_data=exif_data)
-  File "/usr/lib/python3/dist-packages/picamera2/request.py", line 173, in save
-    return self.picam2.helpers.save(self.make_image(name), self.get_metadata(), file_output,
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/request.py", line 301, in save
-    img.save(file_output, **keywords)
-  File "/usr/lib/python3/dist-packages/PIL/Image.py", line 2428, in save
-    fp = builtins.open(filename, "w+b")
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: '/home/nicolaiaustad/Desktop/images/Folder_20240628_153248/image_20240628_153248_nogps.jpg'
-[2:56:54.459735070] [16493] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:313 [0mlibcamera v0.3.0+65-6ddd79b5
-[2:56:54.467860329] [16496] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:695 [0mlibpisp version v1.0.6 b567f0455680 17-06-2024 (10:20:00)
-[2:56:54.477047641] [16496] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1154 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a to CFE device /dev/media0 and ISP device /dev/media2 using PiSP variant BCM2712_C0
-[2:56:54.478362564] [16493] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:313 [0mlibcamera v0.3.0+65-6ddd79b5
-[2:56:54.486067417] [16499] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:695 [0mlibpisp version v1.0.6 b567f0455680 17-06-2024 (10:20:00)
-[2:56:54.495552080] [16499] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1154 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a to CFE device /dev/media0 and ISP device /dev/media2 using PiSP variant BCM2712_C0
-[2:56:54.497811427] [16493] [1;33m WARN [1;37mV4L2 [1;34mv4l2_pixelformat.cpp:344 [0mUnsupported V4L2 pixel format RPBP
-[2:56:54.498448074] [16493] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 1440x1080-BGR888 (1) 1456x1088-BGGR_PISP_COMP1
-[2:56:54.498598444] [16499] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1450 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a - Selected sensor format: 1456x1088-SBGGR10_1X10 - Selected CFE format: 1456x1088-PC1B
-Traceback (most recent call last):
-  File "/home/nicolaiaustad/Desktop/run.py", line 60, in <module>
-    main()
-  File "/home/nicolaiaustad/Desktop/run.py", line 51, in main
-    capture_image(picam2, counter)
-  File "/home/nicolaiaustad/Desktop/run.py", line 37, in capture_image
-    picam2.capture_file(filename)
-  File "/usr/lib/python3/dist-packages/picamera2/picamera2.py", line 1383, in capture_file
-    return self.dispatch_functions(functions, wait, signal_function)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/picamera2.py", line 1320, in dispatch_functions
-    return job.get_result() if wait else job
-           ^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/job.py", line 79, in get_result
-    return self._future.result(timeout=timeout)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.11/concurrent/futures/_base.py", line 456, in result
-    return self.__get_result()
-           ^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
-    raise self._exception
-  File "/usr/lib/python3/dist-packages/picamera2/job.py", line 48, in execute
-    done, result = self._functions[0]()
-                   ^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/picamera2.py", line 1360, in capture_file_
-    request.save(name, file_output, format=format, exif_data=exif_data)
-  File "/usr/lib/python3/dist-packages/picamera2/request.py", line 173, in save
-    return self.picam2.helpers.save(self.make_image(name), self.get_metadata(), file_output,
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/picamera2/request.py", line 301, in save
-    img.save(file_output, **keywords)
-  File "/usr/lib/python3/dist-packages/PIL/Image.py", line 2428, in save
-    fp = builtins.open(filename, "w+b")
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: '/home/nicolaiaustad/Desktop/images/Folder_20240628_153251/image_20240628_153251_nogps.jpg'
-[2:56:57.453584086] [16506] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:313 [0mlibcamera v0.3.0+65-6ddd79b5
-[2:56:57.462803490] [16509] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:695 [0mlibpisp version v1.0.6 b567f0455680 17-06-2024 (10:20:00)
-[2:56:57.472141043] [16509] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1154 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a to CFE device /dev/media0 and ISP device /dev/media2 using PiSP variant BCM2712_C0
-[2:56:57.473440059] [16506] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:313 [0mlibcamera v0.3.0+65-6ddd79b5
-[2:56:57.481117763] [16512] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:695 [0mlibpisp version v1.0.6 b567f0455680 17-06-2024 (10:20:00)
-[2:56:57.490509556] [16512] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1154 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a to CFE device /dev/media0 and ISP device /dev/media2 using PiSP variant BCM2712_C0
-[2:56:57.492597274] [16506] [1;33m WARN [1;37mV4L2 [1;34mv4l2_pixelformat.cpp:344 [0mUnsupported V4L2 pixel format RPBP
-[2:56:57.493223032] [16506] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 1440x1080-BGR888 (1) 1456x1088-BGGR_PISP_COMP1
-[2:56:57.493316809] [16512] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1450 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a - Selected sensor format: 1456x1088-SBGGR10_1X10 - Selected CFE format: 1456x1088-PC1B
-[2:59:28.703816524] [16680] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:313 [0mlibcamera v0.3.0+65-6ddd79b5
-[2:59:28.711978543] [16684] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:695 [0mlibpisp version v1.0.6 b567f0455680 17-06-2024 (10:20:00)
-[2:59:28.721084151] [16684] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1154 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a to CFE device /dev/media0 and ISP device /dev/media2 using PiSP variant BCM2712_C0
-[2:59:28.722472982] [16680] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:313 [0mlibcamera v0.3.0+65-6ddd79b5
-[2:59:28.730202149] [16687] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:695 [0mlibpisp version v1.0.6 b567f0455680 17-06-2024 (10:20:00)
-[2:59:28.739629831] [16687] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1154 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a to CFE device /dev/media0 and ISP device /dev/media2 using PiSP variant BCM2712_C0
-[2:59:28.741714197] [16680] [1;33m WARN [1;37mV4L2 [1;34mv4l2_pixelformat.cpp:344 [0mUnsupported V4L2 pixel format RPBP
-[2:59:28.742385714] [16680] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 1440x1080-BGR888 (1) 1456x1088-BGGR_PISP_COMP1
-[2:59:28.742477139] [16687] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1450 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a - Selected sensor format: 1456x1088-SBGGR10_1X10 - Selected CFE format: 1456x1088-PC1B
+  File "/home/nicolaiaustad/Desktop/CropCounter/run.py", line 120, in <module>
+    logging.basicConfig(
+  File "/usr/lib/python3.11/logging/__init__.py", line 2050, in basicConfig
+    h = FileHandler(filename, mode,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/logging/__init__.py", line 1181, in __init__
+    StreamHandler.__init__(self, self._open())
+                                 ^^^^^^^^^^^^
+  File "/usr/lib/python3.11/logging/__init__.py", line 1213, in _open
+    return open_func(self.baseFilename, self.mode,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/home/nicolaiaustad/Desktop/CropCounter/run.log'
+2024-07-05 12:45:08,356 Program started.
+2024-07-05 12:45:08,357 Program running...lol
+2024-07-05 12:45:13,357 Program running...lol
+2024-07-05 12:45:18,357 Program running...lol
+2024-07-05 12:45:23,357 Program running...lol
+2024-07-05 12:46:23,797 Program started.
+2024-07-05 12:46:23,797 Program running...lol
+2024-07-05 12:46:28,797 Program running...lol
+2024-07-05 12:46:33,798 Program running...lol

@@ -1,7 +1,4 @@
 
-
-
-
 from datetime import datetime
 from picamera2 import Picamera2
 import time
@@ -14,6 +11,7 @@ import maps
 import numpy as np
 import pandas as pd
 import capture
+import os
 
 # Initialize GPS
 # session = gps.gps(mode=gps.WATCH_ENABLE)
@@ -37,6 +35,9 @@ import capture
 
 
 def main(capture_images=False):
+    
+    BASE_DIR = '/home/nicolaiaustad/Desktop/CropCounter'
+    shapefile_path = os.path.join(BASE_DIR, "trygve","trygve.shp")
     
     picam2 = Picamera2()
     # Configure the camera with high-resolution settings
@@ -63,7 +64,7 @@ def main(capture_images=False):
 
     #Map settings
     proj_wgs84 = pyproj.CRS('EPSG:4326')  # WGS84  
-    shapefile_path = "/home/nicolaiaustad/Desktop/trygve/trygve.shp"
+ 
     grid_size = 50
     grid_utm, grid_gps, df_utm, df_gps = maps.shp_to_grid(shapefile_path, grid_size) #returns grid in utm and df in wgs84 (degrees)
     init_lon = grid_gps[0,0]
@@ -95,7 +96,7 @@ def main(capture_images=False):
                 
             
             counter += 1
-            value = calculations.AI_calculation("/home/nicolaiaustad/Desktop/dummy.png")+(counter % 10)
+            value = calculations.AI_calculation("/home/nicolaiaustad/Desktop/CropCounter/dummy.png")+(counter % 10)
             
             time.sleep(2)  # Wait for 5 seconds before capturing the next image
     except KeyboardInterrupt:
@@ -103,7 +104,7 @@ def main(capture_images=False):
         
     finally:
         picam2.stop()
-        maps.make_heatmap_and_save(df_utm, grid_size, '/home/nicolaiaustad/Desktop/heatmapNEW.png', '/home/nicolaiaustad/Desktop/generated_shape_files/SHAPE.shp', utm_crs )
+        maps.make_heatmap_and_save(df_utm, grid_size, 'heatmapNEW.png', '/home/nicolaiaustad/Desktop/CropCounter/generated_shape_files/SHAPE.shp', utm_crs )
     
 if __name__ == "__main__":
     main(capture_images=False)
@@ -117,7 +118,7 @@ if __name__ == "__main__":
 
 # # Configure logging
 # logging.basicConfig(
-#     filename='/home/nicolaiaustad/Desktop/run.log',
+#     filename='/home/nicolaiaustad/Desktop/CropCounter/run.log',
 #     level=logging.INFO,
 #     format='%(asctime)s %(message)s'
 # )

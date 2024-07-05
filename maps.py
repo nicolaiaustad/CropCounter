@@ -10,6 +10,7 @@ import pyproj
 import seaborn as sns
 import matplotlib.ticker as ticker
 from shapely.geometry import Point
+import os
 
 # # Create CRS objects
 proj_wgs84 = pyproj.CRS('EPSG:4326')  # WGS84
@@ -48,8 +49,9 @@ def transform_to_utm(longitude, latitude, utm_crs):
     return utm_x, utm_y
 
 
+BASE_DIR = '/home/nicolaiaustad/Desktop/CropCounter'
+shapefile_path = os.path.join(BASE_DIR, "trygve","trygve.shp")
 
-shapefile_path = "/home/nicolaiaustad/Desktop/trygve/trygve.shp"
 
 def shp_to_grid(filename, gridsize):
     
@@ -119,7 +121,7 @@ def shp_to_grid(filename, gridsize):
     plt.title('Grid within Boundary (UTM)')
     plt.legend()
     plt.grid(True)
-    plt.savefig('/home/nicolaiaustad/Desktop/grid_plot_utm.png')
+    plt.savefig('grid_plot_utm.png')
     plt.show()
 
 
