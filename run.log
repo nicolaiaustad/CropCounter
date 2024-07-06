@@ -14660,3 +14660,636 @@ Shapefile saved to /tmp/Rundt_gaarden_07072024
 2024-07-06 11:53:31,094 INFO Camera closed successfully.
 2024-07-06 11:53:31,175 DEBUG Resources now free: <picamera2.picamera2.Picamera2 object at 0x7fff36385e10>
 Re-running the script with sudo...
+2024-07-06 12:04:41,868 INFO Re-running the script with sudo...
+2024-07-06 12:04:44,120 INFO run.py script started
+mount: /mnt/usb_settings: special device /dev/sda1 does not exist.
+       dmesg(1) may have more information after failed mount system call.
+Traceback (most recent call last):
+  File "/home/nicolaiaustad/Desktop/CropCounter/run.py", line 185, in <module>
+    main(capture_images=False)
+  File "/home/nicolaiaustad/Desktop/CropCounter/run.py", line 59, in main
+    mount_point = load_settings.mount_usb(mount_point, device) # Ensure the USB is mounted
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nicolaiaustad/Desktop/CropCounter/load_settings.py", line 21, in mount_usb
+    subprocess.run(['sudo', 'mount', device, mount_point], check=True)
+  File "/usr/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['sudo', 'mount', '/dev/sda1', '/mnt/usb_settings']' returned non-zero exit status 32.
+Re-running the script with sudo...
+2024-07-06 12:06:45,754 INFO Re-running the script with sudo...
+2024-07-06 12:06:47,727 INFO run.py script started
+[0:01:05.079731996] [2074] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:313 [0mlibcamera v0.3.0+65-6ddd79b5
+[0:01:05.087335329] [2089] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:695 [0mlibpisp version v1.0.6 b567f0455680 17-06-2024 (10:20:00)
+[0:01:05.096631014] [2089] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1154 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a to CFE device /dev/media0 and ISP device /dev/media1 using PiSP variant BCM2712_C0
+[0:01:05.098274681] [2074] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:313 [0mlibcamera v0.3.0+65-6ddd79b5
+[0:01:05.105895514] [2092] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:695 [0mlibpisp version v1.0.6 b567f0455680 17-06-2024 (10:20:00)
+[0:01:05.115468107] [2092] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1154 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a to CFE device /dev/media0 and ISP device /dev/media1 using PiSP variant BCM2712_C0
+2024-07-06 12:06:47,774 INFO Initialization successful.
+2024-07-06 12:06:47,774 INFO Camera now open.
+2024-07-06 12:06:47,775 DEBUG <libcamera._libcamera.CameraManager object at 0x7fff36397770>
+[0:01:05.117812792] [2074] [1;33m WARN [1;37mV4L2 [1;34mv4l2_pixelformat.cpp:344 [0mUnsupported V4L2 pixel format RPBP
+2024-07-06 12:06:47,776 DEBUG Requesting configuration: {'use_case': 'still', 'transform': <libcamera.Transform 'identity'>, 'colour_space': <libcamera.ColorSpace 'sYCC'>, 'buffer_count': 1, 'queue': True, 'main': {'format': 'RGB888', 'size': (4056, 3040), 'stride': 12224, 'framesize': 37160960}, 'lores': None, 'raw': {'format': 'BGGR_PISP_COMP1', 'size': (1456, 1088), 'stride': 1472, 'framesize': 1601536}, 'controls': {'NoiseReductionMode': <NoiseReductionModeEnum.HighQuality: 2>, 'FrameDurationLimits': (100, 1000000000), 'ExposureTime': 10000, 'AnalogueGain': 1.0, 'Brightness': 0.5, 'Contrast': 1.0, 'Saturation': 1.0, 'Sharpness': 1.0}, 'sensor': {'bit_depth': 10, 'output_size': (1456, 1088)}, 'display': None, 'encode': None}
+2024-07-06 12:06:47,776 INFO Camera configuration has been adjusted!
+[0:01:05.118562163] [2074] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 4056x3040-RGB888 (1) 1456x1088-BGGR_PISP_COMP1
+[0:01:05.118657829] [2092] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1450 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/imx296@1a - Selected sensor format: 1456x1088-SBGGR10_1X10 - Selected CFE format: 1456x1088-PC1B
+2024-07-06 12:06:47,777 INFO Configuration successful!
+2024-07-06 12:06:47,777 DEBUG Final configuration: {'use_case': 'still', 'transform': <libcamera.Transform 'identity'>, 'colour_space': <libcamera.ColorSpace 'sYCC'>, 'buffer_count': 1, 'queue': True, 'main': {'format': 'RGB888', 'size': (4056, 3040), 'stride': 12224, 'framesize': 37160960}, 'lores': None, 'raw': {'format': 'BGGR_PISP_COMP1', 'size': (1456, 1088), 'stride': 1472, 'framesize': 1601536}, 'controls': {'NoiseReductionMode': <NoiseReductionModeEnum.HighQuality: 2>, 'FrameDurationLimits': (100, 1000000000), 'ExposureTime': 10000, 'AnalogueGain': 1.0, 'Brightness': 0.5, 'Contrast': 1.0, 'Saturation': 1.0, 'Sharpness': 1.0}, 'sensor': {'bit_depth': 10, 'output_size': (1456, 1088)}, 'display': None, 'encode': None}
+2024-07-06 12:06:47,777 DEBUG Streams: {'main': <libcamera._libcamera.Stream object at 0x7fff35e4c770>, 'lores': None, 'raw': <libcamera._libcamera.Stream object at 0x7fff35e4c730>}
+2024-07-06 12:06:47,788 DEBUG Allocated 1 buffers for stream 0 with fds [34]
+2024-07-06 12:06:47,788 DEBUG Allocated 1 buffers for stream 1 with fds [37]
+2024-07-06 12:06:48,387 INFO Camera started
+2024-07-06 12:06:50,388 DEBUG GDAL data files are available at built-in paths.
+2024-07-06 12:06:50,389 DEBUG PROJ data files are available at built-in paths.
+2024-07-06 12:06:50,402 DEBUG GDAL data files are available at built-in paths.
+2024-07-06 12:06:50,402 DEBUG PROJ data files are available at built-in paths.
+2024-07-06 12:06:50,424 DEBUG Got coordinate system
+2024-07-06 12:06:50,424 DEBUG Got coordinate system
+2024-07-06 12:06:50,425 DEBUG Matched. confidence=100, c_code=b'4326', c_name=b'EPSG'
+2024-07-06 12:06:50,426 DEBUG OLC_FASTSETNEXTBYINDEX: 1
+2024-07-06 12:06:50,426 DEBUG OLC_FASTFEATURECOUNT: 1
+2024-07-06 12:06:50,426 DEBUG Next index: 0
+2024-07-06 12:06:50,426 DEBUG Next index: 1
+2024-07-06 12:06:50,442 DEBUG Flushed buffer
+2024-07-06 12:06:50,442 DEBUG Stopped session
+2024-07-06 12:06:50,443 DEBUG GDAL data files are available at built-in paths.
+2024-07-06 12:06:50,443 DEBUG PROJ data files are available at built-in paths.
+2024-07-06 12:06:50,577 DEBUG Loaded backend agg version v2.2.
+2024-07-06 12:06:50,580 DEBUG findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0.
+2024-07-06 12:06:50,580 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymBol.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-07-06 12:06:50,580 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-07-06 12:06:50,580 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/STIXGeneralBolIta.ttf', name='STIXGeneral', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-07-06 12:06:50,580 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Oblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-07-06 12:06:50,580 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-BoldItalic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-07-06 12:06:50,580 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/DejaVuSansDisplay.ttf', name='DejaVu Sans Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,581 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/cmex10.ttf', name='cmex10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,581 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/cmmi10.ttf', name='cmmi10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,581 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/STIXNonUniBol.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-07-06 12:06:50,581 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymBol.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-07-06 12:06:50,581 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/STIXSizFiveSymReg.ttf', name='STIXSizeFiveSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,581 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymBol.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-07-06 12:06:50,581 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/cmss10.ttf', name='cmss10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,581 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,581 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymReg.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,581 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Bold.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-07-06 12:06:50,581 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/STIXGeneral.ttf', name='STIXGeneral', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,581 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymReg.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,581 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
+2024-07-06 12:06:50,581 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/cmtt10.ttf', name='cmtt10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,581 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,581 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/DejaVuSans-BoldOblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 1.335
+2024-07-06 12:06:50,581 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymReg.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,581 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymReg.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,581 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymBol.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-07-06 12:06:50,581 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
+2024-07-06 12:06:50,581 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/STIXNonUniBolIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-07-06 12:06:50,581 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Italic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-07-06 12:06:50,581 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/cmr10.ttf', name='cmr10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,581 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/STIXGeneralItalic.ttf', name='STIXGeneral', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-07-06 12:06:50,581 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Oblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 1.05
+2024-07-06 12:06:50,582 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/DejaVuSerifDisplay.ttf', name='DejaVu Serif Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,582 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/cmb10.ttf', name='cmb10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,582 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/cmsy10.ttf', name='cmsy10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,582 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/STIXGeneralBol.ttf', name='STIXGeneral', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-07-06 12:06:50,582 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-BoldOblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-07-06 12:06:50,582 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/STIXNonUniIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-07-06 12:06:50,582 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/STIXNonUni.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,582 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation2/LiberationSans-Bold.ttf', name='Liberation Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-07-06 12:06:50,582 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/piboto/Piboto-Thin.ttf', name='Piboto', style='normal', variant='normal', weight=100, stretch='normal', size='scalable')) = 10.335
+2024-07-06 12:06:50,582 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWGothic-Demi.otf', name='URW Gothic', style='normal', variant='normal', weight=600, stretch='normal', size='scalable')) = 10.24
+2024-07-06 12:06:50,582 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/D050000L.otf', name='D050000L', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,582 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/piboto/Piboto-ThinItalic.ttf', name='Piboto', style='italic', variant='normal', weight=100, stretch='normal', size='scalable')) = 11.335
+2024-07-06 12:06:50,582 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/piboto/PibotoCondensed-Bold.ttf', name='Piboto Condensed', style='normal', variant='normal', weight=700, stretch='condensed', size='scalable')) = 10.535
+2024-07-06 12:06:50,582 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,582 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/freefont/FreeSerifItalic.ttf', name='FreeSerif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-07-06 12:06:50,582 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/piboto/PibotoCondensed-Regular.ttf', name='Piboto Condensed', style='normal', variant='normal', weight=400, stretch='condensed', size='scalable')) = 10.25
+2024-07-06 12:06:50,582 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSans-BoldItalic.otf', name='Nimbus Sans', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-07-06 12:06:50,582 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSansNarrow-Oblique.otf', name='Nimbus Sans Narrow', style='oblique', variant='normal', weight=400, stretch='condensed', size='scalable')) = 11.25
+2024-07-06 12:06:50,582 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation2/LiberationSans-BoldItalic.ttf', name='Liberation Sans', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-07-06 12:06:50,582 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation2/LiberationSans-Italic.ttf', name='Liberation Sans', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-07-06 12:06:50,582 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/freefont/FreeMono.ttf', name='FreeMono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,582 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/piboto/PibotoLtItalic.ttf', name='PibotoLt', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-07-06 12:06:50,582 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation2/LiberationSerif-BoldItalic.ttf', name='Liberation Serif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-07-06 12:06:50,582 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusMonoPS-BoldItalic.otf', name='Nimbus Mono PS', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-07-06 12:06:50,583 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation2/LiberationSans-Regular.ttf', name='Liberation Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,583 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lyx/eufm10.ttf', name='eufm10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,583 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/freefont/FreeSansOblique.ttf', name='FreeSans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-07-06 12:06:50,583 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/noto/NotoSansMono-Regular.ttf', name='Noto Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,583 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/cantarell/Cantarell-Light.otf', name='Cantarell', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+2024-07-06 12:06:50,583 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/piboto/Piboto-Italic.ttf', name='Piboto', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-07-06 12:06:50,583 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/quicksand/Quicksand-Medium.ttf', name='Quicksand Medium', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
+2024-07-06 12:06:50,583 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/piboto/Piboto-Regular.ttf', name='Piboto', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,583 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/freefont/FreeSerifBold.ttf', name='FreeSerif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-07-06 12:06:50,583 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/freefont/FreeMonoBold.ttf', name='FreeMono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-07-06 12:06:50,583 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSansNarrow-BoldOblique.otf', name='Nimbus Sans Narrow', style='oblique', variant='normal', weight=700, stretch='condensed', size='scalable')) = 11.535
+2024-07-06 12:06:50,583 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/quicksand/Quicksand-Regular.ttf', name='Quicksand', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,583 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lyx/stmary10.ttf', name='stmary10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,583 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation2/LiberationMono-Bold.ttf', name='Liberation Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-07-06 12:06:50,583 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSans-Regular.otf', name='Nimbus Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,583 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lyx/dsrom10.ttf', name='dsrom10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,583 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSansNarrow-Bold.otf', name='Nimbus Sans Narrow', style='normal', variant='normal', weight=700, stretch='condensed', size='scalable')) = 10.535
+2024-07-06 12:06:50,583 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusRoman-Italic.otf', name='Nimbus Roman', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-07-06 12:06:50,583 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/P052-BoldItalic.otf', name='P052', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-07-06 12:06:50,583 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,583 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSansNarrow-Regular.otf', name='Nimbus Sans Narrow', style='normal', variant='normal', weight=400, stretch='condensed', size='scalable')) = 10.25
+2024-07-06 12:06:50,583 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/piboto/PibotoLtBoldItalic.ttf', name='PibotoLt', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-07-06 12:06:50,583 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/freefont/FreeMonoOblique.ttf', name='FreeMono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-07-06 12:06:50,583 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/C059-Bold.otf', name='C059', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-07-06 12:06:50,583 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation2/LiberationSerif-Italic.ttf', name='Liberation Serif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-07-06 12:06:50,583 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWBookman-Light.otf', name='URW Bookman', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+2024-07-06 12:06:50,584 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation2/LiberationMono-Italic.ttf', name='Liberation Mono', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-07-06 12:06:50,584 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/freefont/FreeMonoBoldOblique.ttf', name='FreeMono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-07-06 12:06:50,584 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lyx/wasy10.ttf', name='wasy10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,584 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/C059-BdIta.otf', name='C059', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-07-06 12:06:50,584 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lyx/cmsy10.ttf', name='cmsy10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,584 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWBookman-Demi.otf', name='URW Bookman', style='normal', variant='normal', weight=600, stretch='normal', size='scalable')) = 10.24
+2024-07-06 12:06:50,584 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/piboto/Piboto-LightItalic.ttf', name='Piboto', style='italic', variant='normal', weight=300, stretch='normal', size='scalable')) = 11.145
+2024-07-06 12:06:50,584 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/piboto/PibotoLtBold.ttf', name='PibotoLt', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-07-06 12:06:50,584 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/cantarell/Cantarell-Regular.otf', name='Cantarell', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,584 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/freefont/FreeSans.ttf', name='FreeSans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,584 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSans-Italic.otf', name='Nimbus Sans', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-07-06 12:06:50,584 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lyx/esint10.ttf', name='esint10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,584 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWGothic-DemiOblique.otf', name='URW Gothic', style='oblique', variant='normal', weight=600, stretch='normal', size='scalable')) = 11.24
+2024-07-06 12:06:50,584 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lyx/cmex10.ttf', name='cmex10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,584 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/P052-Roman.otf', name='P052', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,584 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/Z003-MediumItalic.otf', name='Z003', style='italic', variant='normal', weight=500, stretch='normal', size='scalable')) = 11.145
+2024-07-06 12:06:50,584 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
+2024-07-06 12:06:50,584 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-07-06 12:06:50,584 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusMonoPS-Regular.otf', name='Nimbus Mono PS', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,584 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/cantarell/Cantarell-Thin.otf', name='Cantarell', style='normal', variant='normal', weight=100, stretch='normal', size='scalable')) = 10.335
+2024-07-06 12:06:50,584 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/quicksand/Quicksand-Bold.ttf', name='Quicksand', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-07-06 12:06:50,584 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation2/LiberationMono-Regular.ttf', name='Liberation Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,584 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/piboto/Piboto-Light.ttf', name='Piboto', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+2024-07-06 12:06:50,584 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusRoman-Bold.otf', name='Nimbus Roman', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-07-06 12:06:50,584 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWBookman-LightItalic.otf', name='URW Bookman', style='italic', variant='normal', weight=300, stretch='normal', size='scalable')) = 11.145
+2024-07-06 12:06:50,584 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/C059-Italic.otf', name='C059', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-07-06 12:06:50,585 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/droid/DroidSansFallbackFull.ttf', name='Droid Sans Fallback', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,585 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSans-Bold.otf', name='Nimbus Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-07-06 12:06:50,585 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/C059-Roman.otf', name='C059', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,585 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lyx/cmmi10.ttf', name='cmmi10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,585 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/piboto/PibotoLt-Regular.ttf', name='PibotoLt', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,585 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/cantarell/Cantarell-Bold.otf', name='Cantarell', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-07-06 12:06:50,585 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/freefont/FreeSansBoldOblique.ttf', name='FreeSans', style='oblique', variant='normal', weight=600, stretch='normal', size='scalable')) = 11.24
+2024-07-06 12:06:50,585 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lyx/cmr10.ttf', name='cmr10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,585 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/P052-Bold.otf', name='P052', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-07-06 12:06:50,585 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-07-06 12:06:50,585 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/quicksand/Quicksand-Light.ttf', name='Quicksand Light', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+2024-07-06 12:06:50,585 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/freefont/FreeSerifBoldItalic.ttf', name='FreeSerif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-07-06 12:06:50,585 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWGothic-BookOblique.otf', name='URW Gothic', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-07-06 12:06:50,585 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lyx/rsfs10.ttf', name='rsfs10', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-07-06 12:06:50,585 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation2/LiberationSerif-Bold.ttf', name='Liberation Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-07-06 12:06:50,585 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lyx/msam10.ttf', name='msam10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,585 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/noto/NotoSansMono-Bold.ttf', name='Noto Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-07-06 12:06:50,585 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/StandardSymbolsPS.otf', name='Standard Symbols PS', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,585 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/piboto/PibotoCondensed-BoldItalic.ttf', name='Piboto Condensed', style='italic', variant='normal', weight=700, stretch='condensed', size='scalable')) = 11.535
+2024-07-06 12:06:50,585 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/freefont/FreeSerif.ttf', name='FreeSerif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,585 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWBookman-DemiItalic.otf', name='URW Bookman', style='italic', variant='normal', weight=600, stretch='normal', size='scalable')) = 11.24
+2024-07-06 12:06:50,585 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/freefont/FreeSansBold.ttf', name='FreeSans', style='normal', variant='normal', weight=600, stretch='normal', size='scalable')) = 10.24
+2024-07-06 12:06:50,586 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/P052-Italic.otf', name='P052', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-07-06 12:06:50,586 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/piboto/PibotoCondensed-Italic.ttf', name='Piboto Condensed', style='italic', variant='normal', weight=400, stretch='condensed', size='scalable')) = 11.25
+2024-07-06 12:06:50,586 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusMonoPS-Italic.otf', name='Nimbus Mono PS', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-07-06 12:06:50,586 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lyx/msbm10.ttf', name='msbm10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,586 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusMonoPS-Bold.otf', name='Nimbus Mono PS', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-07-06 12:06:50,586 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
+2024-07-06 12:06:50,586 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWGothic-Book.otf', name='URW Gothic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,586 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/cantarell/Cantarell-ExtraBold.otf', name='Cantarell', style='normal', variant='normal', weight=800, stretch='normal', size='scalable')) = 10.43
+2024-07-06 12:06:50,586 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/piboto/Piboto-BoldItalic.ttf', name='Piboto', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-07-06 12:06:50,586 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/noto/NotoMono-Regular.ttf', name='Noto Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,586 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/piboto/Piboto-Bold.ttf', name='Piboto', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-07-06 12:06:50,586 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusRoman-Regular.otf', name='Nimbus Roman', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,586 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusRoman-BoldItalic.otf', name='Nimbus Roman', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-07-06 12:06:50,586 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation2/LiberationSerif-Regular.ttf', name='Liberation Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,586 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation2/LiberationMono-BoldItalic.ttf', name='Liberation Mono', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-07-06 12:06:50,586 DEBUG findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/usr/share/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2024-07-06 12:06:50,642 DEBUG findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0.
+2024-07-06 12:06:50,642 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymBol.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-07-06 12:06:50,642 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-07-06 12:06:50,642 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/STIXGeneralBolIta.ttf', name='STIXGeneral', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-07-06 12:06:50,642 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Oblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-07-06 12:06:50,642 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-BoldItalic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-07-06 12:06:50,642 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/DejaVuSansDisplay.ttf', name='DejaVu Sans Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,642 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/cmex10.ttf', name='cmex10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,642 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/cmmi10.ttf', name='cmmi10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,642 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/STIXNonUniBol.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-07-06 12:06:50,642 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymBol.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-07-06 12:06:50,643 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/STIXSizFiveSymReg.ttf', name='STIXSizeFiveSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,643 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymBol.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-07-06 12:06:50,643 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/cmss10.ttf', name='cmss10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,643 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,643 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymReg.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,643 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Bold.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-07-06 12:06:50,643 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/STIXGeneral.ttf', name='STIXGeneral', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,643 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymReg.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,643 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
+2024-07-06 12:06:50,643 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/cmtt10.ttf', name='cmtt10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,643 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,643 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/DejaVuSans-BoldOblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 1.335
+2024-07-06 12:06:50,643 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymReg.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,643 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymReg.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,643 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymBol.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-07-06 12:06:50,643 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
+2024-07-06 12:06:50,643 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/STIXNonUniBolIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-07-06 12:06:50,643 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Italic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-07-06 12:06:50,643 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/cmr10.ttf', name='cmr10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,643 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/STIXGeneralItalic.ttf', name='STIXGeneral', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-07-06 12:06:50,643 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Oblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 1.05
+2024-07-06 12:06:50,643 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/DejaVuSerifDisplay.ttf', name='DejaVu Serif Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,643 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/cmb10.ttf', name='cmb10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,643 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/cmsy10.ttf', name='cmsy10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,643 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/STIXGeneralBol.ttf', name='STIXGeneral', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-07-06 12:06:50,644 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-BoldOblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-07-06 12:06:50,644 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/STIXNonUniIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-07-06 12:06:50,644 DEBUG findfont: score(FontEntry(fname='/usr/share/matplotlib/mpl-data/fonts/ttf/STIXNonUni.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,644 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation2/LiberationSans-Bold.ttf', name='Liberation Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-07-06 12:06:50,644 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/piboto/Piboto-Thin.ttf', name='Piboto', style='normal', variant='normal', weight=100, stretch='normal', size='scalable')) = 10.335
+2024-07-06 12:06:50,644 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWGothic-Demi.otf', name='URW Gothic', style='normal', variant='normal', weight=600, stretch='normal', size='scalable')) = 10.24
+2024-07-06 12:06:50,644 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/D050000L.otf', name='D050000L', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,644 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/piboto/Piboto-ThinItalic.ttf', name='Piboto', style='italic', variant='normal', weight=100, stretch='normal', size='scalable')) = 11.335
+2024-07-06 12:06:50,644 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/piboto/PibotoCondensed-Bold.ttf', name='Piboto Condensed', style='normal', variant='normal', weight=700, stretch='condensed', size='scalable')) = 10.535
+2024-07-06 12:06:50,644 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,644 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/freefont/FreeSerifItalic.ttf', name='FreeSerif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-07-06 12:06:50,644 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/piboto/PibotoCondensed-Regular.ttf', name='Piboto Condensed', style='normal', variant='normal', weight=400, stretch='condensed', size='scalable')) = 10.25
+2024-07-06 12:06:50,644 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSans-BoldItalic.otf', name='Nimbus Sans', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-07-06 12:06:50,644 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSansNarrow-Oblique.otf', name='Nimbus Sans Narrow', style='oblique', variant='normal', weight=400, stretch='condensed', size='scalable')) = 11.25
+2024-07-06 12:06:50,644 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation2/LiberationSans-BoldItalic.ttf', name='Liberation Sans', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-07-06 12:06:50,644 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation2/LiberationSans-Italic.ttf', name='Liberation Sans', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-07-06 12:06:50,644 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/freefont/FreeMono.ttf', name='FreeMono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,644 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/piboto/PibotoLtItalic.ttf', name='PibotoLt', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-07-06 12:06:50,644 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation2/LiberationSerif-BoldItalic.ttf', name='Liberation Serif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-07-06 12:06:50,644 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusMonoPS-BoldItalic.otf', name='Nimbus Mono PS', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-07-06 12:06:50,644 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation2/LiberationSans-Regular.ttf', name='Liberation Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,644 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lyx/eufm10.ttf', name='eufm10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,644 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/freefont/FreeSansOblique.ttf', name='FreeSans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-07-06 12:06:50,644 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/noto/NotoSansMono-Regular.ttf', name='Noto Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,644 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/cantarell/Cantarell-Light.otf', name='Cantarell', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+2024-07-06 12:06:50,645 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/piboto/Piboto-Italic.ttf', name='Piboto', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-07-06 12:06:50,645 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/quicksand/Quicksand-Medium.ttf', name='Quicksand Medium', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
+2024-07-06 12:06:50,645 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/piboto/Piboto-Regular.ttf', name='Piboto', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,645 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/freefont/FreeSerifBold.ttf', name='FreeSerif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-07-06 12:06:50,645 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/freefont/FreeMonoBold.ttf', name='FreeMono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-07-06 12:06:50,645 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSansNarrow-BoldOblique.otf', name='Nimbus Sans Narrow', style='oblique', variant='normal', weight=700, stretch='condensed', size='scalable')) = 11.535
+2024-07-06 12:06:50,645 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/quicksand/Quicksand-Regular.ttf', name='Quicksand', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,645 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lyx/stmary10.ttf', name='stmary10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,645 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation2/LiberationMono-Bold.ttf', name='Liberation Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-07-06 12:06:50,645 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSans-Regular.otf', name='Nimbus Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,645 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lyx/dsrom10.ttf', name='dsrom10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,645 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSansNarrow-Bold.otf', name='Nimbus Sans Narrow', style='normal', variant='normal', weight=700, stretch='condensed', size='scalable')) = 10.535
+2024-07-06 12:06:50,645 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusRoman-Italic.otf', name='Nimbus Roman', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-07-06 12:06:50,645 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/P052-BoldItalic.otf', name='P052', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-07-06 12:06:50,645 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,645 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSansNarrow-Regular.otf', name='Nimbus Sans Narrow', style='normal', variant='normal', weight=400, stretch='condensed', size='scalable')) = 10.25
+2024-07-06 12:06:50,645 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/piboto/PibotoLtBoldItalic.ttf', name='PibotoLt', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-07-06 12:06:50,645 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/freefont/FreeMonoOblique.ttf', name='FreeMono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-07-06 12:06:50,645 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/C059-Bold.otf', name='C059', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-07-06 12:06:50,645 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation2/LiberationSerif-Italic.ttf', name='Liberation Serif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-07-06 12:06:50,645 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWBookman-Light.otf', name='URW Bookman', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+2024-07-06 12:06:50,645 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation2/LiberationMono-Italic.ttf', name='Liberation Mono', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-07-06 12:06:50,645 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/freefont/FreeMonoBoldOblique.ttf', name='FreeMono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-07-06 12:06:50,645 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lyx/wasy10.ttf', name='wasy10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,645 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/C059-BdIta.otf', name='C059', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-07-06 12:06:50,646 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lyx/cmsy10.ttf', name='cmsy10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,646 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWBookman-Demi.otf', name='URW Bookman', style='normal', variant='normal', weight=600, stretch='normal', size='scalable')) = 10.24
+2024-07-06 12:06:50,646 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/piboto/Piboto-LightItalic.ttf', name='Piboto', style='italic', variant='normal', weight=300, stretch='normal', size='scalable')) = 11.145
+2024-07-06 12:06:50,646 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/piboto/PibotoLtBold.ttf', name='PibotoLt', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-07-06 12:06:50,646 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/cantarell/Cantarell-Regular.otf', name='Cantarell', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,646 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/freefont/FreeSans.ttf', name='FreeSans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,646 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSans-Italic.otf', name='Nimbus Sans', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-07-06 12:06:50,646 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lyx/esint10.ttf', name='esint10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,646 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWGothic-DemiOblique.otf', name='URW Gothic', style='oblique', variant='normal', weight=600, stretch='normal', size='scalable')) = 11.24
+2024-07-06 12:06:50,646 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lyx/cmex10.ttf', name='cmex10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,646 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/P052-Roman.otf', name='P052', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,646 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/Z003-MediumItalic.otf', name='Z003', style='italic', variant='normal', weight=500, stretch='normal', size='scalable')) = 11.145
+2024-07-06 12:06:50,646 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
+2024-07-06 12:06:50,646 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-07-06 12:06:50,646 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusMonoPS-Regular.otf', name='Nimbus Mono PS', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,646 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/cantarell/Cantarell-Thin.otf', name='Cantarell', style='normal', variant='normal', weight=100, stretch='normal', size='scalable')) = 10.335
+2024-07-06 12:06:50,646 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/quicksand/Quicksand-Bold.ttf', name='Quicksand', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-07-06 12:06:50,646 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation2/LiberationMono-Regular.ttf', name='Liberation Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,646 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/piboto/Piboto-Light.ttf', name='Piboto', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+2024-07-06 12:06:50,646 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusRoman-Bold.otf', name='Nimbus Roman', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-07-06 12:06:50,646 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWBookman-LightItalic.otf', name='URW Bookman', style='italic', variant='normal', weight=300, stretch='normal', size='scalable')) = 11.145
+2024-07-06 12:06:50,646 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/C059-Italic.otf', name='C059', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-07-06 12:06:50,646 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/droid/DroidSansFallbackFull.ttf', name='Droid Sans Fallback', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,646 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusSans-Bold.otf', name='Nimbus Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-07-06 12:06:50,646 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/C059-Roman.otf', name='C059', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,647 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lyx/cmmi10.ttf', name='cmmi10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,647 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/piboto/PibotoLt-Regular.ttf', name='PibotoLt', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,647 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/cantarell/Cantarell-Bold.otf', name='Cantarell', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-07-06 12:06:50,647 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/freefont/FreeSansBoldOblique.ttf', name='FreeSans', style='oblique', variant='normal', weight=600, stretch='normal', size='scalable')) = 11.24
+2024-07-06 12:06:50,647 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lyx/cmr10.ttf', name='cmr10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,647 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/P052-Bold.otf', name='P052', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-07-06 12:06:50,647 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-07-06 12:06:50,647 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/quicksand/Quicksand-Light.ttf', name='Quicksand Light', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+2024-07-06 12:06:50,647 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/freefont/FreeSerifBoldItalic.ttf', name='FreeSerif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-07-06 12:06:50,647 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWGothic-BookOblique.otf', name='URW Gothic', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-07-06 12:06:50,647 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lyx/rsfs10.ttf', name='rsfs10', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-07-06 12:06:50,647 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation2/LiberationSerif-Bold.ttf', name='Liberation Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-07-06 12:06:50,647 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lyx/msam10.ttf', name='msam10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,647 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/noto/NotoSansMono-Bold.ttf', name='Noto Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-07-06 12:06:50,647 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/StandardSymbolsPS.otf', name='Standard Symbols PS', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,647 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/piboto/PibotoCondensed-BoldItalic.ttf', name='Piboto Condensed', style='italic', variant='normal', weight=700, stretch='condensed', size='scalable')) = 11.535
+2024-07-06 12:06:50,647 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/freefont/FreeSerif.ttf', name='FreeSerif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,647 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWBookman-DemiItalic.otf', name='URW Bookman', style='italic', variant='normal', weight=600, stretch='normal', size='scalable')) = 11.24
+2024-07-06 12:06:50,647 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/freefont/FreeSansBold.ttf', name='FreeSans', style='normal', variant='normal', weight=600, stretch='normal', size='scalable')) = 10.24
+2024-07-06 12:06:50,647 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/P052-Italic.otf', name='P052', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-07-06 12:06:50,647 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/piboto/PibotoCondensed-Italic.ttf', name='Piboto Condensed', style='italic', variant='normal', weight=400, stretch='condensed', size='scalable')) = 11.25
+2024-07-06 12:06:50,647 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusMonoPS-Italic.otf', name='Nimbus Mono PS', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2024-07-06 12:06:50,647 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/lyx/msbm10.ttf', name='msbm10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,647 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusMonoPS-Bold.otf', name='Nimbus Mono PS', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-07-06 12:06:50,647 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
+2024-07-06 12:06:50,648 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/URWGothic-Book.otf', name='URW Gothic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,648 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/cantarell/Cantarell-ExtraBold.otf', name='Cantarell', style='normal', variant='normal', weight=800, stretch='normal', size='scalable')) = 10.43
+2024-07-06 12:06:50,648 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/piboto/Piboto-BoldItalic.ttf', name='Piboto', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-07-06 12:06:50,648 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/noto/NotoMono-Regular.ttf', name='Noto Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,648 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/piboto/Piboto-Bold.ttf', name='Piboto', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2024-07-06 12:06:50,648 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusRoman-Regular.otf', name='Nimbus Roman', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,648 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/opentype/urw-base35/NimbusRoman-BoldItalic.otf', name='Nimbus Roman', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-07-06 12:06:50,648 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation2/LiberationSerif-Regular.ttf', name='Liberation Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2024-07-06 12:06:50,648 DEBUG findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation2/LiberationMono-BoldItalic.ttf', name='Liberation Mono', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2024-07-06 12:06:50,648 DEBUG findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('/usr/share/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2024-07-06 12:06:50,916 INFO Now the While loop starts...
+2024-07-06 12:06:50,916 DEBUG Execute job: <picamera2.job.Job object at 0x7fff35e90a10>
+2024-07-06 12:06:51,656 INFO Saved <picamera2.request.Helpers object at 0x7fff361277d0> to file <_io.BytesIO object at 0x7fff35e5dc60>.
+2024-07-06 12:06:51,656 INFO Time taken for encode: 640.9514579999893 ms.
+2024-07-06 12:06:52,556 INFO Still calculating values from gps...
+2024-07-06 12:06:54,574 DEBUG Execute job: <picamera2.job.Job object at 0x7fff37c69ed0>
+2024-07-06 12:06:55,312 INFO Saved <picamera2.request.Helpers object at 0x7fff361277d0> to file <_io.BytesIO object at 0x7fff35e7dc60>.
+2024-07-06 12:06:55,313 INFO Time taken for encode: 641.0865349999995 ms.
+2024-07-06 12:06:56,133 INFO Still calculating values from gps...
+2024-07-06 12:06:58,152 DEBUG Execute job: <picamera2.job.Job object at 0x7fff35ecb010>
+2024-07-06 12:06:58,890 INFO Saved <picamera2.request.Helpers object at 0x7fff361277d0> to file <_io.BytesIO object at 0x7fff35e7dc60>.
+2024-07-06 12:06:58,891 INFO Time taken for encode: 638.3447839999974 ms.
+2024-07-06 12:06:59,744 INFO Still calculating values from gps...
+2024-07-06 12:07:01,751 DEBUG Execute job: <picamera2.job.Job object at 0x7fff38eae7d0>
+2024-07-06 12:07:02,500 INFO Saved <picamera2.request.Helpers object at 0x7fff361277d0> to file <_io.BytesIO object at 0x7fff35e7dc60>.
+2024-07-06 12:07:02,500 INFO Time taken for encode: 645.1472300000063 ms.
+2024-07-06 12:07:03,364 INFO Still calculating values from gps...
+2024-07-06 12:07:05,374 DEBUG Execute job: <picamera2.job.Job object at 0x7fff34077190>
+2024-07-06 12:07:06,116 INFO Saved <picamera2.request.Helpers object at 0x7fff361277d0> to file <_io.BytesIO object at 0x7fff35ee6a70>.
+2024-07-06 12:07:06,116 INFO Time taken for encode: 639.9619909999927 ms.
+2024-07-06 12:07:06,950 INFO Still calculating values from gps...
+2024-07-06 12:07:08,974 DEBUG Execute job: <picamera2.job.Job object at 0x7fff360ac250>
+2024-07-06 12:07:09,733 INFO Saved <picamera2.request.Helpers object at 0x7fff361277d0> to file <_io.BytesIO object at 0x7fff35ee4ef0>.
+2024-07-06 12:07:09,733 INFO Time taken for encode: 641.9773750000104 ms.
+2024-07-06 12:07:10,600 INFO Still calculating values from gps...
+2024-07-06 12:07:12,629 DEBUG Execute job: <picamera2.job.Job object at 0x7fff35ec8150>
+2024-07-06 12:07:13,367 INFO Saved <picamera2.request.Helpers object at 0x7fff361277d0> to file <_io.BytesIO object at 0x7fff35ee7830>.
+2024-07-06 12:07:13,367 INFO Time taken for encode: 638.5502380000077 ms.
+2024-07-06 12:07:14,234 INFO Still calculating values from gps...
+2024-07-06 12:07:16,239 DEBUG Execute job: <picamera2.job.Job object at 0x7fff35e4f5d0>
+2024-07-06 12:07:16,983 INFO Saved <picamera2.request.Helpers object at 0x7fff361277d0> to file <_io.BytesIO object at 0x7fff35e7dc60>.
+2024-07-06 12:07:16,984 INFO Time taken for encode: 639.9270880000074 ms.
+2024-07-06 12:07:17,833 INFO Still calculating values from gps...
+2024-07-06 12:07:19,840 DEBUG Execute job: <picamera2.job.Job object at 0x7fff360ac250>
+2024-07-06 12:07:20,596 INFO Saved <picamera2.request.Helpers object at 0x7fff361277d0> to file <_io.BytesIO object at 0x7fff35e7dc60>.
+2024-07-06 12:07:20,596 INFO Time taken for encode: 641.3233009999999 ms.
+2024-07-06 12:07:21,467 INFO Still calculating values from gps...
+2024-07-06 12:07:23,494 DEBUG Execute job: <picamera2.job.Job object at 0x7fff36a6bb50>
+2024-07-06 12:07:24,231 INFO Saved <picamera2.request.Helpers object at 0x7fff361277d0> to file <_io.BytesIO object at 0x7fff35e7ea70>.
+2024-07-06 12:07:24,231 INFO Time taken for encode: 640.3484510000084 ms.
+2024-07-06 12:07:25,085 INFO Still calculating values from gps...
+2024-07-06 12:07:27,088 DEBUG Execute job: <picamera2.job.Job object at 0x7fff360ac250>
+2024-07-06 12:07:27,830 INFO Saved <picamera2.request.Helpers object at 0x7fff361277d0> to file <_io.BytesIO object at 0x7fff35f2e840>.
+2024-07-06 12:07:27,830 INFO Time taken for encode: 639.847969999991 ms.
+2024-07-06 12:07:28,664 INFO Still calculating values from gps...
+2024-07-06 12:07:30,687 DEBUG Execute job: <picamera2.job.Job object at 0x7fff360ac250>
+2024-07-06 12:07:31,211 INFO Saved <picamera2.request.Helpers object at 0x7fff361277d0> to file <_io.BytesIO object at 0x7fff35e7dc60>.
+2024-07-06 12:07:31,211 INFO Time taken for encode: 422.26152299998887 ms.
+2024-07-06 12:07:32,073 DEBUG Execute job: <picamera2.job.Job object at 0x7fff35e70a10>
+2024-07-06 12:07:32,830 INFO Saved <picamera2.request.Helpers object at 0x7fff361277d0> to file <_io.BytesIO object at 0x7fff35ee4ef0>.
+2024-07-06 12:07:32,830 INFO Time taken for encode: 644.7719709999973 ms.
+2024-07-06 12:07:33,683 INFO Still calculating values from gps...
+2024-07-06 12:07:35,701 DEBUG Execute job: <picamera2.job.Job object at 0x7fff360ac250>
+2024-07-06 12:07:36,247 INFO Saved <picamera2.request.Helpers object at 0x7fff361277d0> to file <_io.BytesIO object at 0x7fff35e7ea70>.
+2024-07-06 12:07:36,247 INFO Time taken for encode: 442.8512890000036 ms.
+2024-07-06 12:07:37,126 DEBUG Execute job: <picamera2.job.Job object at 0x7fff35e59c90>
+2024-07-06 12:07:37,866 INFO Saved <picamera2.request.Helpers object at 0x7fff361277d0> to file <_io.BytesIO object at 0x7fff35f2e840>.
+2024-07-06 12:07:37,866 INFO Time taken for encode: 641.5665549999972 ms.
+2024-07-06 12:07:38,753 DEBUG Execute job: <picamera2.job.Job object at 0x7fff35e58a90>
+2024-07-06 12:07:39,491 INFO Saved <picamera2.request.Helpers object at 0x7fff361277d0> to file <_io.BytesIO object at 0x7fff35f2e840>.
+2024-07-06 12:07:39,491 INFO Time taken for encode: 639.055402000011 ms.
+2024-07-06 12:07:40,373 DEBUG Execute job: <picamera2.job.Job object at 0x7fff35e599d0>
+2024-07-06 12:07:41,110 INFO Saved <picamera2.request.Helpers object at 0x7fff361277d0> to file <_io.BytesIO object at 0x7fff35f2e840>.
+2024-07-06 12:07:41,110 INFO Time taken for encode: 639.0304259999908 ms.
+2024-07-06 12:07:41,973 INFO Still calculating values from gps...
+2024-07-06 12:07:43,983 DEBUG Execute job: <picamera2.job.Job object at 0x7fff35eeb490>
+2024-07-06 12:07:44,725 INFO Saved <picamera2.request.Helpers object at 0x7fff361277d0> to file <_io.BytesIO object at 0x7fff35e7ea70>.
+2024-07-06 12:07:44,725 INFO Time taken for encode: 641.2582920000034 ms.
+2024-07-06 12:07:45,580 INFO Still calculating values from gps...
+2024-07-06 12:07:47,610 DEBUG Execute job: <picamera2.job.Job object at 0x7fff35eeb410>
+2024-07-06 12:07:48,356 INFO Saved <picamera2.request.Helpers object at 0x7fff361277d0> to file <_io.BytesIO object at 0x7fff35f2f060>.
+2024-07-06 12:07:48,356 INFO Time taken for encode: 643.8086139999939 ms.
+2024-07-06 12:07:49,250 DEBUG Execute job: <picamera2.job.Job object at 0x7fff35e59e10>
+2024-07-06 12:07:49,994 INFO Saved <picamera2.request.Helpers object at 0x7fff361277d0> to file <_io.BytesIO object at 0x7fff35f2f060>.
+2024-07-06 12:07:49,994 INFO Time taken for encode: 642.1855490000041 ms.
+2024-07-06 12:07:50,865 INFO Still calculating values from gps...
+2024-07-06 12:07:52,866 DEBUG Execute job: <picamera2.job.Job object at 0x7fff37c69ed0>
+2024-07-06 12:07:53,617 INFO Saved <picamera2.request.Helpers object at 0x7fff361277d0> to file <_io.BytesIO object at 0x7fff35e7dc60>.
+2024-07-06 12:07:53,617 INFO Time taken for encode: 643.6771889999875 ms.
+2024-07-06 12:07:54,478 DEBUG Execute job: <picamera2.job.Job object at 0x7fff35edc290>
+2024-07-06 12:07:55,241 INFO Saved <picamera2.request.Helpers object at 0x7fff361277d0> to file <_io.BytesIO object at 0x7fff35f2f060>.
+2024-07-06 12:07:55,242 INFO Time taken for encode: 641.4926220000154 ms.
+2024-07-06 12:07:56,087 INFO Still calculating values from gps...
+2024-07-06 12:07:58,100 DEBUG Execute job: <picamera2.job.Job object at 0x7fff370bd8d0>
+2024-07-06 12:07:58,885 INFO Saved <picamera2.request.Helpers object at 0x7fff361277d0> to file <_io.BytesIO object at 0x7fff35e7dc60>.
+2024-07-06 12:07:58,885 INFO Time taken for encode: 675.1870289999999 ms.
+2024-07-06 12:07:59,739 INFO Still calculating values from gps...
+2024-07-06 12:08:01,755 DEBUG Execute job: <picamera2.job.Job object at 0x7fff35eeb950>
+2024-07-06 12:08:02,498 INFO Saved <picamera2.request.Helpers object at 0x7fff361277d0> to file <_io.BytesIO object at 0x7fff35f2f240>.
+2024-07-06 12:08:02,498 INFO Time taken for encode: 640.942544000012 ms.
+2024-07-06 12:08:03,359 INFO Still calculating values from gps...
+2024-07-06 12:08:05,366 DEBUG Execute job: <picamera2.job.Job object at 0x7fff35e4ed90>
+2024-07-06 12:08:06,110 INFO Saved <picamera2.request.Helpers object at 0x7fff361277d0> to file <_io.BytesIO object at 0x7fff35ee41d0>.
+2024-07-06 12:08:06,110 INFO Time taken for encode: 640.8589569999776 ms.
+2024-07-06 12:08:06,939 DEBUG Execute job: <picamera2.job.Job object at 0x7fff35ede190>
+2024-07-06 12:08:07,681 INFO Saved <picamera2.request.Helpers object at 0x7fff361277d0> to file <_io.BytesIO object at 0x7fff35ee58a0>.
+2024-07-06 12:08:07,682 INFO Time taken for encode: 640.9975439999869 ms.
+2024-07-06 12:08:08,517 DEBUG Execute job: <picamera2.job.Job object at 0x7fff35edc310>
+2024-07-06 12:08:09,257 INFO Saved <picamera2.request.Helpers object at 0x7fff361277d0> to file <_io.BytesIO object at 0x7fff35e7dc60>.
+2024-07-06 12:08:09,257 INFO Time taken for encode: 642.7383799999973 ms.
+2024-07-06 12:08:10,092 INFO Still calculating values from gps...
+2024-07-06 12:08:12,107 DEBUG Execute job: <picamera2.job.Job object at 0x7fff35e580d0>
+2024-07-06 12:08:12,845 INFO Saved <picamera2.request.Helpers object at 0x7fff361277d0> to file <_io.BytesIO object at 0x7fff35ee6a70>.
+2024-07-06 12:08:12,845 INFO Time taken for encode: 641.0952509999959 ms.
+2024-07-06 12:08:13,714 DEBUG Execute job: <picamera2.job.Job object at 0x7fff35ed7ad0>
+2024-07-06 12:08:14,453 INFO Saved <picamera2.request.Helpers object at 0x7fff361277d0> to file <_io.BytesIO object at 0x7fff35e7ea70>.
+2024-07-06 12:08:14,453 INFO Time taken for encode: 640.4577220000078 ms.
+2024-07-06 12:08:15,321 DEBUG Execute job: <picamera2.job.Job object at 0x7fff35ed7ad0>
+2024-07-06 12:08:16,058 INFO Saved <picamera2.request.Helpers object at 0x7fff361277d0> to file <_io.BytesIO object at 0x7fff35e7d530>.
+2024-07-06 12:08:16,058 INFO Time taken for encode: 640.6981080000094 ms.
+2024-07-06 12:08:16,944 DEBUG Execute job: <picamera2.job.Job object at 0x7fff35ebf050>
+2024-07-06 12:08:17,680 INFO Saved <picamera2.request.Helpers object at 0x7fff361277d0> to file <_io.BytesIO object at 0x7fff35f2f150>.
+2024-07-06 12:08:17,680 INFO Time taken for encode: 640.306355000007 ms.
+2024-07-06 12:08:18,551 DEBUG Execute job: <picamera2.job.Job object at 0x7fff35ef3e10>
+2024-07-06 12:08:19,290 INFO Saved <picamera2.request.Helpers object at 0x7fff361277d0> to file <_io.BytesIO object at 0x7fff35f2f150>.
+2024-07-06 12:08:19,290 INFO Time taken for encode: 640.7169489999944 ms.
+2024-07-06 12:08:20,146 INFO Still calculating values from gps...
+2024-07-06 12:08:22,161 DEBUG Execute job: <picamera2.job.Job object at 0x7fff35ebe750>
+2024-07-06 12:08:22,900 INFO Saved <picamera2.request.Helpers object at 0x7fff361277d0> to file <_io.BytesIO object at 0x7fff35f2f060>.
+2024-07-06 12:08:22,900 INFO Time taken for encode: 642.1458419999908 ms.
+2024-07-06 12:08:23,751 INFO Still calculating values from gps...
+2024-07-06 12:08:25,755 DEBUG Execute job: <picamera2.job.Job object at 0x7fff35edc1d0>
+2024-07-06 12:08:26,494 INFO Saved <picamera2.request.Helpers object at 0x7fff361277d0> to file <_io.BytesIO object at 0x7fff35f2ee80>.
+2024-07-06 12:08:26,494 INFO Time taken for encode: 641.5522190000047 ms.
+2024-07-06 12:08:27,379 DEBUG Execute job: <picamera2.job.Job object at 0x7fff38ecb790>
+2024-07-06 12:08:28,127 INFO Saved <picamera2.request.Helpers object at 0x7fff361277d0> to file <_io.BytesIO object at 0x7fff35e6a930>.
+2024-07-06 12:08:28,127 INFO Time taken for encode: 649.7931480000148 ms.
+2024-07-06 12:08:29,054 DEBUG Execute job: <picamera2.job.Job object at 0x7fff360c6cd0>
+2024-07-06 12:08:29,794 INFO Saved <picamera2.request.Helpers object at 0x7fff361277d0> to file <_io.BytesIO object at 0x7fff35e6a930>.
+2024-07-06 12:08:29,794 INFO Time taken for encode: 643.0141010000057 ms.
+2024-07-06 12:08:30,655 INFO Still calculating values from gps...
+2024-07-06 12:08:32,662 DEBUG Execute job: <picamera2.job.Job object at 0x7fff398f8550>
+2024-07-06 12:08:33,404 INFO Saved <picamera2.request.Helpers object at 0x7fff361277d0> to file <_io.BytesIO object at 0x7fff35e6a930>.
+2024-07-06 12:08:33,404 INFO Time taken for encode: 644.830297999988 ms.
+2024-07-06 12:08:34,240 DEBUG Execute job: <picamera2.job.Job object at 0x7fff360c66d0>
+2024-07-06 12:08:34,988 INFO Saved <picamera2.request.Helpers object at 0x7fff361277d0> to file <_io.BytesIO object at 0x7fff35e7dc60>.
+2024-07-06 12:08:34,988 INFO Time taken for encode: 650.7597490000023 ms.
+2024-07-06 12:08:35,862 INFO Still calculating values from gps...
+2024-07-06 12:08:37,880 DEBUG Execute job: <picamera2.job.Job object at 0x7fff35ebec50>
+2024-07-06 12:08:38,618 INFO Saved <picamera2.request.Helpers object at 0x7fff361277d0> to file <_io.BytesIO object at 0x7fff369e9e40>.
+2024-07-06 12:08:38,618 INFO Time taken for encode: 641.5784680000058 ms.
+2024-07-06 12:08:39,466 DEBUG Execute job: <picamera2.job.Job object at 0x7fff360c7350>
+2024-07-06 12:08:40,214 INFO Saved <picamera2.request.Helpers object at 0x7fff361277d0> to file <_io.BytesIO object at 0x7fff35e6a930>.
+2024-07-06 12:08:40,215 INFO Time taken for encode: 650.6436170000143 ms.
+2024-07-06 12:08:41,128 DEBUG Execute job: <picamera2.job.Job object at 0x7fff35e4e410>
+2024-07-06 12:08:41,870 INFO Saved <picamera2.request.Helpers object at 0x7fff361277d0> to file <_io.BytesIO object at 0x7fff35e6a930>.
+2024-07-06 12:08:41,870 INFO Time taken for encode: 644.9997859999996 ms.
+2024-07-06 12:08:42,749 DEBUG Execute job: <picamera2.job.Job object at 0x7fff360c7a10>
+2024-07-06 12:08:43,486 INFO Saved <picamera2.request.Helpers object at 0x7fff361277d0> to file <_io.BytesIO object at 0x7fff35e6a930>.
+2024-07-06 12:08:43,486 INFO Time taken for encode: 639.5739940000169 ms.
+2024-07-06 12:08:44,364 DEBUG Execute job: <picamera2.job.Job object at 0x7fff360db7d0>
+2024-07-06 12:08:45,104 INFO Saved <picamera2.request.Helpers object at 0x7fff361277d0> to file <_io.BytesIO object at 0x7fff35f2ee80>.
+2024-07-06 12:08:45,104 INFO Time taken for encode: 642.9919880000057 ms.
+2024-07-06 12:08:45,980 INFO Still calculating values from gps...
+2024-07-06 12:08:48,000 DEBUG Execute job: <picamera2.job.Job object at 0x7fff35ee9790>
+2024-07-06 12:08:48,741 INFO Saved <picamera2.request.Helpers object at 0x7fff361277d0> to file <_io.BytesIO object at 0x7fff35e6a930>.
+2024-07-06 12:08:48,741 INFO Time taken for encode: 641.936960999999 ms.
+2024-07-06 12:08:49,606 DEBUG Execute job: <picamera2.job.Job object at 0x7fff360db450>
+2024-07-06 12:08:50,347 INFO Saved <picamera2.request.Helpers object at 0x7fff361277d0> to file <_io.BytesIO object at 0x7fff35e7d530>.
+2024-07-06 12:08:50,347 INFO Time taken for encode: 643.6283790000061 ms.
+2024-07-06 12:08:51,265 INFO Still calculating values from gps...
+2024-07-06 12:08:53,283 DEBUG Execute job: <picamera2.job.Job object at 0x7fff35ebec50>
+2024-07-06 12:08:54,020 INFO Saved <picamera2.request.Helpers object at 0x7fff361277d0> to file <_io.BytesIO object at 0x7fff35e7d530>.
+2024-07-06 12:08:54,020 INFO Time taken for encode: 640.4209979999962 ms.
+2024-07-06 12:08:54,882 DEBUG Execute job: <picamera2.job.Job object at 0x7fff360db650>
+2024-07-06 12:08:55,622 INFO Saved <picamera2.request.Helpers object at 0x7fff361277d0> to file <_io.BytesIO object at 0x7fff35e7d530>.
+2024-07-06 12:08:55,622 INFO Time taken for encode: 641.4216160000024 ms.
+2024-07-06 12:08:56,491 INFO Still calculating values from gps...
+2024-07-06 12:08:58,517 DEBUG Execute job: <picamera2.job.Job object at 0x7fff35e58a90>
+2024-07-06 12:08:59,279 INFO Saved <picamera2.request.Helpers object at 0x7fff361277d0> to file <_io.BytesIO object at 0x7fff3991c590>.
+2024-07-06 12:08:59,279 INFO Time taken for encode: 661.6608340000028 ms.
+2024-07-06 12:09:00,135 INFO Still calculating values from gps...
+2024-07-06 12:09:02,144 DEBUG Execute job: <picamera2.job.Job object at 0x7fff35ebf050>
+2024-07-06 12:09:02,886 INFO Saved <picamera2.request.Helpers object at 0x7fff361277d0> to file <_io.BytesIO object at 0x7fff35e7ea70>.
+2024-07-06 12:09:02,886 INFO Time taken for encode: 644.5760960000086 ms.
+2024-07-06 12:09:03,735 DEBUG Execute job: <picamera2.job.Job object at 0x7fff360c4d10>
+2024-07-06 12:09:04,497 INFO Saved <picamera2.request.Helpers object at 0x7fff361277d0> to file <_io.BytesIO object at 0x7fff35f2eca0>.
+2024-07-06 12:09:04,497 INFO Time taken for encode: 660.4812239999944 ms.
+2024-07-06 12:09:05,403 DEBUG Execute job: <picamera2.job.Job object at 0x7fff360d9290>
+2024-07-06 12:09:06,144 INFO Saved <picamera2.request.Helpers object at 0x7fff361277d0> to file <_io.BytesIO object at 0x7fff35e7d530>.
+2024-07-06 12:09:06,144 INFO Time taken for encode: 644.6283359999825 ms.
+2024-07-06 12:09:07,031 DEBUG Execute job: <picamera2.job.Job object at 0x7fff360c7190>
+2024-07-06 12:09:07,772 INFO Saved <picamera2.request.Helpers object at 0x7fff361277d0> to file <_io.BytesIO object at 0x7fff35f2e840>.
+2024-07-06 12:09:07,772 INFO Time taken for encode: 642.5691839999956 ms.
+2024-07-06 12:09:08,624 INFO Still calculating values from gps...
+2024-07-06 12:09:10,625 INFO USB stick removed, breaking the loop.
+2024-07-06 12:09:10,625 INFO Program interrupted
+2024-07-06 12:09:10,625 INFO Cleaning up resources...
+2024-07-06 12:09:10,625 DEBUG Execute job: <picamera2.job.Job object at 0x7fff360d8a10>
+2024-07-06 12:09:10,628 INFO Camera stopped
+2024-07-06 12:09:10,661 DEBUG locator: <matplotlib.ticker.AutoLocator object at 0x7fff360d9190>
+2024-07-06 12:09:10,929 DEBUG GDAL data files are available at built-in paths.
+2024-07-06 12:09:10,929 DEBUG PROJ data files are available at built-in paths.
+2024-07-06 12:09:10,945 DEBUG File doesn't exist. Creating a new one...
+2024-07-06 12:09:10,946 DEBUG GDAL data files are available at built-in paths.
+2024-07-06 12:09:10,946 DEBUG PROJ data files are available at built-in paths.
+2024-07-06 12:09:10,948 DEBUG GDAL data files are available at built-in paths.
+2024-07-06 12:09:10,948 DEBUG PROJ data files are available at built-in paths.
+2024-07-06 12:09:10,948 DEBUG Created layer KJORE_AV_SEG_SELV
+2024-07-06 12:09:10,948 DEBUG Writing started
+2024-07-06 12:09:10,948 DEBUG GDAL data files are available at built-in paths.
+2024-07-06 12:09:10,948 DEBUG PROJ data files are available at built-in paths.
+2024-07-06 12:09:10,949 DEBUG Transaction supported: 0
+2024-07-06 12:09:10,958 DEBUG Flushed data source cache
+2024-07-06 12:09:10,958 DEBUG Flushed buffer
+2024-07-06 12:09:10,958 DEBUG Stopped session
+2024-07-06 12:09:16,168 INFO Now generated files should be saved...
+/dev/sda1 is already mounted at /media/nicolaiaustad/ESD-USB
+Copied /media/nicolaiaustad/ESD-USB/settings.txt to /tmp/settings.txt
+Copied /media/nicolaiaustad/ESD-USB/shapefiles to /tmp/shapefiles
+KJORE_AV_SEG_SELV 75 55.6
+Using shapefile: /tmp/shapefiles/Trygve-Soraker_GP.shp
+Captured image but not saving it.
+Captured image but not saving it.
+Captured image but not saving it.
+Captured image but not saving it.
+Captured image but not saving it.
+Captured image but not saving it.
+Captured image but not saving it.
+Captured image but not saving it.
+Captured image but not saving it.
+Captured image but not saving it.
+Captured image but not saving it.
+Captured image but not saving it.
+Captured image but not saving it.
+Captured image but not saving it.
+Captured image but not saving it.
+Captured image but not saving it.
+Captured image but not saving it.
+Captured image but not saving it.
+Captured image but not saving it.
+Captured image but not saving it.
+Captured image but not saving it.
+Captured image but not saving it.
+Captured image but not saving it.
+Captured image but not saving it.
+Captured image but not saving it.
+Captured image but not saving it.
+Captured image but not saving it.
+Captured image but not saving it.
+Captured image but not saving it.
+Captured image but not saving it.
+Captured image but not saving it.
+Captured image but not saving it.
+Captured image but not saving it.
+Captured image but not saving it.
+Captured image but not saving it.
+Captured image but not saving it.
+Captured image but not saving it.
+Captured image but not saving it.
+Captured image but not saving it.
+Captured image but not saving it.
+Captured image but not saving it.
+Captured image but not saving it.
+Captured image but not saving it.
+Captured image but not saving it.
+Captured image but not saving it.
+Captured image but not saving it.
+Captured image but not saving it.
+Captured image but not saving it.
+Captured image but not saving it.
+Captured image but not saving it.
+Captured image but not saving it.
+Captured image but not saving it.
+Program interrupted
+Heatmap saved to /tmp/KJORE_AV_SEG_SELV.png
+Shapefile saved to /tmp/KJORE_AV_SEG_SELV
+2024-07-06 12:09:16,236 DEBUG Camera was not started
+2024-07-06 12:09:16,436 INFO Camera closed successfully.
+2024-07-06 12:09:16,522 DEBUG Resources now free: <picamera2.picamera2.Picamera2 object at 0x7fff360aca10>
+Re-running the script with sudo...
+2024-07-06 12:13:55,955 INFO Re-running the script with sudo...
+2024-07-06 12:13:58,216 INFO run.py script started
+mount: /mnt/usb_settings: special device /dev/sda1 does not exist.
+       dmesg(1) may have more information after failed mount system call.
+Traceback (most recent call last):
+  File "/home/nicolaiaustad/Desktop/CropCounter/run.py", line 185, in <module>
+    main(capture_images=False)
+  File "/home/nicolaiaustad/Desktop/CropCounter/run.py", line 59, in main
+    mount_point = load_settings.mount_usb(mount_point, device) # Ensure the USB is mounted
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nicolaiaustad/Desktop/CropCounter/load_settings.py", line 21, in mount_usb
+    subprocess.run(['sudo', 'mount', device, mount_point], check=True)
+  File "/usr/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['sudo', 'mount', '/dev/sda1', '/mnt/usb_settings']' returned non-zero exit status 32.
+Re-running the script with sudo...
