@@ -21,15 +21,6 @@ def get_utm_zone(longitude, latitude):
     hemisphere = 'north' if latitude >= 0 else 'south'
     return zone_number, hemisphere
 
-# # Function to create UTM projection based on latitude and longitude
-# def create_utm_proj(zone_number, hemisphere):
-#     #hemisphere, zone_number = get_utm_zone(longitude, latitude)
-#     # utm_crs = pyproj.CRS(proj='utm', zone=zone_number, hemisphere=hemisphere)
-#     # return utm_crs
-
-#     proj_string = f"+proj=utm +zone={zone_number} +{hemisphere} +datum=WGS84 +units=m +no_defs"
-#     return pyproj.CRS(proj_string)
-
 def create_utm_proj(zone_number, hemisphere):
     proj_string = f"+proj=utm +zone={zone_number} +{'north' if hemisphere == 'north' else 'south'} +datum=WGS84 +units=m +no_defs"
     return pyproj.CRS(proj_string)
@@ -49,12 +40,7 @@ def transform_to_utm(longitude, latitude, utm_crs):
     return utm_x, utm_y
 
 
-BASE_DIR = '/home/nicolaiaustad/Desktop/CropCounter'
-shapefile_path = os.path.join(BASE_DIR, "trygve","trygve.shp")
-
-
 def shp_to_grid(filename, gridsize):
-    
     
     # Set SHAPE_RESTORE_SHX config option to YES
     fiona.drvsupport.supported_drivers['ESRI Shapefile'] = 'raw'
@@ -87,10 +73,6 @@ def shp_to_grid(filename, gridsize):
     # Get boundary coordinates in UTM
     boundary_coords_utm = np.array(boundary_utm.exterior.coords)
 
-
-
-
-
     # Get the bounding box of the polygon in UTM
     minx, miny, maxx, maxy = boundary_utm.bounds
 
@@ -121,49 +103,19 @@ def shp_to_grid(filename, gridsize):
     plt.title('Grid within Boundary (UTM)')
     plt.legend()
     plt.grid(True)
-    plt.savefig('grid_plot_utm.png')
-    plt.show()
+    plt.savefig('/home/nicolaiaustad/Desktop/grid_plot_utm.png')
 
-
-    
-
-    # Print the first few grid points in WGS84
-    #print(grid_points_wgs84[:1])
-    values = np.zeros(len(grid_points_wgs84))
-    # print(values)
+    values_gps = np.zeros(len(grid_points_wgs84))
     df_gps = pd.DataFrame(grid_points_wgs84, columns=['x', 'y'])
-    df_gps['values'] = values
+    df_gps['values'] = values_gps
     df_gps["measured"] = np.zeros(len(grid_points_wgs84), dtype=bool)
-    #print(df_gps)
     
-    values1 = np.zeros(len(grid_points))
-    #print(values)
+    values_utm = np.zeros(len(grid_points))
     df_utm = pd.DataFrame(grid_points, columns=['x', 'y'])
-    df_utm['values'] = values1
+    df_utm['values'] = values_utm
     df_utm["measured"] = np.zeros(len(grid_points), dtype=bool)
-    #print(df_utm)
+    
     return grid_points, grid_points_wgs84, df_utm, df_gps
-
-# grid_utm, grid_gps, df_utm, df_gps =shp_to_grid(shapefile_path, 5)
-# print(df_gps)
-# print(df_utm)
-# import pyproj
-
-
-# # Example usage
-# longitude = 58.5
-# latitude = 12.5
-
-# zone_number, hemisphere = get_utm_zone(longitude, latitude)
-
-# # WGS84 to UTM
-# utm_x, utm_y = transform_to_utm(longitude, latitude, create_utm_proj(zone_number, hemisphere) )
-# print(f"UTM Coordinates: Easting: {utm_x}, Northing: {utm_y}")
-
-# # UTM to WGS84
-# lon, lat = transform_to_wgs84(utm_x, utm_y, create_utm_proj(zone_number, hemisphere))
-# print(f"WGS84 Coordinates: Longitude: {lon}, Latitude: {lat}")
-
 
 
 def find_grid_cell(longitude, latitude, grid_size, df):                  
@@ -185,111 +137,29 @@ def find_grid_cell(longitude, latitude, grid_size, df):
         return row.index[0]
     return None
 
-
-
-# data = {
-#     'x': [0, 10, 20, 30, 40],
-#     'y': [0, 10, 20, 30, 40],
-#     'values': [0, 0, 0, 0, 0],
-#     'measured': [False, False, False, False, False]
-# }
-# df = pd.DataFrame(data)
-# test_utm_x = 25
-# test_utm_y = 21
-# grid_size = 10
-
-# # Find the corresponding row
-# df_row = find_grid_cell(test_utm_x, test_utm_y, grid_size, df)
-# print(f"Identified DataFrame Row: {df_row}")
-
-
-
-
-### Now must make color map
-# Format axis numbers
-    
-def round(n, k):
-    # function to round number 'n' up/down to nearest 'k'
-    # use positive k to round up
-    # use negative k to round down
-
-    return n - n % k
-
-
-
-    
-# def make_heatmap_and_save(df_data, grid_size):
-#     # Pivot the DataFrame to create a grid
-#     pivot_table = df_data.pivot(index='y', columns='x', values='values')
-
-#     # Create the heatmap
-#     plt.figure(figsize=(10, 8))
-#     sns.heatmap(pivot_table, cmap='YlOrRd', annot=False, fmt="f", cbar=True)
-    
-     
-#     xticks = np.arange(df_data['x'].min(), df_data['x'].max() + grid_size, grid_size)
-#     yticks = np.arange(df_data['y'].min(), df_data['y'].max() + grid_size, grid_size)
-
-#     plt.gca().set_xticks(np.arange(len(xticks)))
-#     plt.gca().set_yticks(np.arange(len(yticks)))
-
-#     # Set the tick labels directly from the tick values
-#     plt.gca().set_xticklabels([f'{int(x)}' for x in xticks], rotation=45, ha='right')
-#     plt.gca().set_yticklabels([f'{int(y)}' for y in yticks])
-    
-#     # Format axis numbers
-#     plt.xticks(rotation=45, ha='right')
-#     #plt.yticks(yticks)
-#     plt.yticks(rotation=0)
-#     # Invert y-axis
-#     plt.gca().invert_yaxis()
-#     #ax1.set_yticks(yticks)
-#     plt.title('Heatmap of Values')
-#     plt.xlabel('UTM X Coordinate')
-#     plt.ylabel('UTM Y Coordinate')
-#     plt.savefig('/home/nicolaiaustad/Desktop/heatmap.png')
-#     plt.close()  # Close the figure after saving
-
 def save_heatmap_to_shapefile(df_data, grid_size, output_path, crs):
-    # Convert the DataFrame to a GeoDataFrame
     geometry = [Point(xy) for xy in zip(df_data['x'], df_data['y'])]
     gdf = gpd.GeoDataFrame(df_data, crs=crs, geometry=geometry)
-
-    # Transform the GeoDataFrame to geographic CRS (WGS84)
     gdf_wgs84 = gdf.to_crs(epsg=4326)
-
-    # Save the GeoDataFrame as a shapefile
     gdf_wgs84.to_file(output_path, driver='ESRI Shapefile')
     print(f"Shapefile saved to {output_path}")
 
-
 def make_heatmap_and_save(df_data, grid_size, heatmap_output_path, shapefile_output_path, crs):
-    # Pivot the DataFrame to create a grid
     pivot_table = df_data.pivot(index='y', columns='x', values='values')
-    
-    # Create the heatmap
     plt.figure(figsize=(12, 10))
     sns.heatmap(pivot_table, cmap='YlOrRd', annot=False, fmt="f", cbar=True)
-    
-    # Set tick labels directly from the tick values
     xticks = np.arange(df_data['x'].min(), df_data['x'].max() + grid_size, grid_size)
     yticks = np.arange(df_data['y'].min(), df_data['y'].max() + grid_size, grid_size)
-
     plt.gca().set_xticks(np.arange(len(xticks)))
     plt.gca().set_yticks(np.arange(len(yticks)))
-
     plt.gca().set_xticklabels([f'{int(x)}' for x in xticks], rotation=45, ha='right')
     plt.gca().set_yticklabels([f'{int(y)}' for y in yticks])
-
-    # Invert y-axis
     plt.gca().invert_yaxis()
-
     plt.title('Heatmap of Values')
     plt.xlabel('UTM X Coordinate')
     plt.ylabel('UTM Y Coordinate')
     plt.savefig(heatmap_output_path)
-    plt.close()  # Close the figure after saving
+    plt.close()
     print(f"Heatmap saved to {heatmap_output_path}")
 
-    # Save the heatmap values as a shapefile
     save_heatmap_to_shapefile(df_data, grid_size, shapefile_output_path, crs)

@@ -1,3 +1,5 @@
+#This script can be used to open newly generated shapefiles and read their data
+
 import geopandas as gpd
 import matplotlib.pyplot as plt
 
@@ -46,7 +48,4 @@ plt.title("Shapefile Geometries")
 plt.xlabel("Longitude")
 plt.ylabel("Latitude")
 plt.grid(True)
-plt.savefig('/home/nicolaiaustad/Desktop/newShapefile.png')
-
-
-#Just remove this sentence
+plt.savefig('/home/nicolaiaustad/Desktop/newly_generated_shapefile.png')
