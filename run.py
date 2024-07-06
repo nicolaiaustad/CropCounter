@@ -116,9 +116,9 @@ def main(capture_images=False):
         logging.info('Now the While loop starts...')
         while True:
             ### Comment out the three next lines when running the script manually
-            # if not os.path.exists('/tmp/usb_inserted'):
-            #     logging.info('USB stick removed, breaking the loop.')
-            #     raise KeyboardInterrupt
+            if not os.path.exists('/tmp/usb_inserted'):
+                logging.info('USB stick removed, breaking the loop.')
+                raise KeyboardInterrupt
             
             capture.capture_image(picam2, counter, capture_images)  #Enable this when actually capturing images
             value = calculations.AI_calculation("/home/nicolaiaustad/Desktop/CropCounter/dummy.png")+(counter % 10) #Extract value from captured image
