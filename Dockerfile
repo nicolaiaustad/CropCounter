@@ -83,5 +83,3 @@ RUN /app/setup.sh
 # Ensure the scripts have the right permissions
 RUN chmod +x /app/start_camera.sh /app/stop_camera.sh /app/start_camera_relay.sh
 
-# Set the default command to keep the container running
-CMD ["/lib/systemd/systemd"]
