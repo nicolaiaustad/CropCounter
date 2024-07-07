@@ -9,7 +9,7 @@ CropCounter is a project that automates image capture and GPS data processing us
 - [Usage](#usage)
 - [System Requirements](#system-requirements)
 - [Project Structure](#project-structure)
-- [Contributing](#contributing)
+- [Docker](#docker)
 
 
 ## Installation
@@ -24,3 +24,8 @@ Run the .config/setup.sh file to install packages and dependencies
 Run the .config/setup_configs.sh file to setup udev rules and systemd services
 
 Remember to update the idVendor and idProduct numbers for the usb stick you use as a switch in the udev rule file 99-usb-stick.rules
+
+## Docker
+
+When using Docker remember to set username on Raspberry Pi to nicolaiaustad and manually run the setup_config.sh file using sudo after running the Docker container. This inefficieny will be resolved ASAP.
+
