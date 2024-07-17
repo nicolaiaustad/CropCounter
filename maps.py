@@ -137,29 +137,180 @@ def find_grid_cell(longitude, latitude, grid_size, df):
         return row.index[0]
     return None
 
-def save_heatmap_to_shapefile(df_data, grid_size, output_path, crs):
+# def save_heatmap_to_shapefile(df_data, grid_size, output_path, crs):
+#     geometry = [Point(xy) for xy in zip(df_data['x'], df_data['y'])]
+#     gdf = gpd.GeoDataFrame(df_data, crs=crs, geometry=geometry)
+#     gdf_wgs84 = gdf.to_crs(epsg=4326)
+#     gdf_wgs84.to_file(output_path, driver='ESRI Shapefile')
+#     print(f"Shapefile saved to {output_path}")
+
+# def make_heatmap_and_save(df_data, grid_size, heatmap_output_path, shapefile_output_path, crs):
+#     pivot_table = df_data.pivot(index='y', columns='x', values='values')
+#     plt.figure(figsize=(12, 10))
+#     sns.heatmap(pivot_table, cmap='RdYlGn', annot=False, fmt="f", cbar=True)
+#     xticks = np.arange(df_data['x'].min(), df_data['x'].max() + grid_size, grid_size)
+#     yticks = np.arange(df_data['y'].min(), df_data['y'].max() + grid_size, grid_size)
+#     plt.gca().set_xticks(np.arange(len(xticks)))
+#     plt.gca().set_yticks(np.arange(len(yticks)))
+#     plt.gca().set_xticklabels([f'{int(x)}' for x in xticks], rotation=45, ha='right')
+#     plt.gca().set_yticklabels([f'{int(y)}' for y in yticks])
+#     plt.gca().invert_yaxis()
+#     plt.title('Heatmap of Values')
+#     plt.xlabel('UTM X Coordinate')
+#     plt.ylabel('UTM Y Coordinate')
+#     plt.savefig(heatmap_output_path)
+#     plt.savefig("/home/nicolaiaustad/Desktop/heatmap16jul.png")
+#     plt.close()
+#     print(f"Heatmap saved to {heatmap_output_path}")
+#     save_heatmap_to_shapefile(df_data, grid_size, shapefile_output_path, crs)
+
+# import numpy as np
+# import matplotlib.pyplot as plt
+# import seaborn as sns
+# import geopandas as gpd
+# from shapely.geometry import Point
+# from scipy.interpolate import griddata
+# from scipy.ndimage import gaussian_filter
+
+# def save_heatmap_to_shapefile(df_data, grid_size, output_path, crs):
+#     geometry = [Point(xy) for xy in zip(df_data['x'], df_data['y'])]
+#     gdf = gpd.GeoDataFrame(df_data, crs=crs, geometry=geometry)
+#     gdf_wgs84 = gdf.to_crs(epsg=4326)
+#     gdf_wgs84.to_file(output_path, driver='ESRI Shapefile')
+#     print(f"Shapefile saved to {output_path}")
+
+# def interpolate_and_smooth(df_data, grid_size):
+#     # Extract x, y, and values from the dataframe
+#     x = df_data['x'].values
+#     y = df_data['y'].values[::-1]
+#     values = df_data['values'].values
+    
+#     # Create grid
+#     grid_x, grid_y = np.mgrid[x.min():x.max():grid_size*1j, y.min():y.max():grid_size*1j]
+    
+#     # Interpolate missing values
+#     grid_z = griddata((x, y), values, (grid_x, grid_y), method='cubic')
+    
+#     # Handle outliers by replacing them with the median or a capped value
+#     z_median = np.nanmedian(grid_z)
+#     z_std = np.nanstd(grid_z)
+#     outlier_threshold = 3 * z_std
+#     grid_z = np.where(np.abs(grid_z - z_median) > outlier_threshold, z_median, grid_z)
+    
+#     # Apply Gaussian filter for smoothing
+#     grid_z = gaussian_filter(grid_z, sigma=1)
+    
+#     return grid_x, grid_y, grid_z
+
+# def make_heatmap_and_save(df_data, grid_size, heatmap_output_path, shapefile_output_path, crs):
+#     # Interpolate and smooth the data
+#     grid_x, grid_y, grid_z = interpolate_and_smooth(df_data, grid_size)
+    
+#     # Prepare data for saving to shapefile
+#     df_data_interpolated = []
+#     for i in range(grid_x.shape[0]):
+#         for j in range(grid_x.shape[1]):
+#             df_data_interpolated.append({
+#                 'x': grid_x[i, j],
+#                 'y': grid_y[i, j],
+#                 'values': grid_z[i, j]
+#             })
+#     df_data_interpolated = pd.DataFrame(df_data_interpolated)
+    
+#     # Create and save the heatmap
+#     plt.figure(figsize=(12, 10))
+#     sns.heatmap(grid_z.T, cmap='RdYlGn', annot=False, fmt="f", cbar=True, xticklabels=False, yticklabels=False)
+#     plt.title('Heatmap of Values')
+#     plt.xlabel('UTM X Coordinate')
+#     plt.ylabel('UTM Y Coordinate')
+#     plt.savefig(heatmap_output_path)
+#     plt.savefig("/home/nicolaiaustad/Desktop/heatmap16jul.png")
+#     plt.close()
+#     print(f"Heatmap saved to {heatmap_output_path}")
+    
+#     # Save to shapefile
+#     save_heatmap_to_shapefile(df_data_interpolated, grid_size, shapefile_output_path, crs)
+
+# # Example usage:
+# # df_data should be a DataFrame with columns: 'x', 'y', 'values'
+# # make_heatmap_and_save(df_data, grid_size=0.1, heatmap_output_path='heatmap.png', shapefile_output_path='heatmap.shp', crs='epsg:32633')
+
+
+
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+import geopandas as gpd
+from shapely.geometry import Point
+from scipy.ndimage import gaussian_filter
+
+def save_heatmap_to_shapefile(df_data, output_path, crs):
     geometry = [Point(xy) for xy in zip(df_data['x'], df_data['y'])]
     gdf = gpd.GeoDataFrame(df_data, crs=crs, geometry=geometry)
     gdf_wgs84 = gdf.to_crs(epsg=4326)
     gdf_wgs84.to_file(output_path, driver='ESRI Shapefile')
     print(f"Shapefile saved to {output_path}")
 
+def interpolate_and_smooth(pivot_table, method='cubic', sigma=1, min_value=0, max_value=500):
+    # Interpolate missing values in the pivot table
+    grid_z = pivot_table.values
+    mask = np.isnan(grid_z)
+    
+    # Use the chosen method for interpolation
+    grid_z = np.where(mask, np.nanmedian(grid_z), grid_z)
+    
+    # Handle outliers by clipping values to the desired range
+    grid_z = np.clip(grid_z, min_value, max_value)
+    
+    # Apply Gaussian filter for smoothing
+    grid_z = gaussian_filter(grid_z, sigma=sigma)
+    
+    # Restore the mask to keep original boundaries
+    grid_z[mask] = np.nan
+    
+    
+    return grid_z
+
+
 def make_heatmap_and_save(df_data, grid_size, heatmap_output_path, shapefile_output_path, crs):
+    # Create pivot table
     pivot_table = df_data.pivot(index='y', columns='x', values='values')
+    
+    # Interpolate and smooth the data
+    grid_z = interpolate_and_smooth(pivot_table)
+    
+    # Extract the grid points
+    unique_x = pivot_table.columns.values
+    unique_y = pivot_table.index.values
+    
+    # Prepare data for saving to shapefile
+    df_data_interpolated = []
+    for i in range(len(unique_x)):
+        for j in range(len(unique_y)):
+            if not np.isnan(grid_z[j, i]):
+                df_data_interpolated.append({
+                    'x': unique_x[i],
+                    'y': unique_y[j],
+                    'values': grid_z[j, i]  # Note the order: grid_z is transposed
+                })
+    df_data_interpolated = pd.DataFrame(df_data_interpolated)
+    
+    # Create and save the heatmap
     plt.figure(figsize=(12, 10))
-    sns.heatmap(pivot_table, cmap='YlOrRd', annot=False, fmt="f", cbar=True)
-    xticks = np.arange(df_data['x'].min(), df_data['x'].max() + grid_size, grid_size)
-    yticks = np.arange(df_data['y'].min(), df_data['y'].max() + grid_size, grid_size)
-    plt.gca().set_xticks(np.arange(len(xticks)))
-    plt.gca().set_yticks(np.arange(len(yticks)))
-    plt.gca().set_xticklabels([f'{int(x)}' for x in xticks], rotation=45, ha='right')
-    plt.gca().set_yticklabels([f'{int(y)}' for y in yticks])
+    sns.heatmap(grid_z, cmap='RdYlGn', annot=False, fmt="f", cbar=True, xticklabels=False, yticklabels=False)
     plt.gca().invert_yaxis()
     plt.title('Heatmap of Values')
     plt.xlabel('UTM X Coordinate')
     plt.ylabel('UTM Y Coordinate')
     plt.savefig(heatmap_output_path)
+    plt.savefig("/home/nicolaiaustad/Desktop/heatmap_1sigma.png")
     plt.close()
     print(f"Heatmap saved to {heatmap_output_path}")
 
-    save_heatmap_to_shapefile(df_data, grid_size, shapefile_output_path, crs)
+    # Save to shapefile
+    save_heatmap_to_shapefile(df_data_interpolated, shapefile_output_path, crs)
+
+# Example usage:
+# df_data should be a DataFrame with columns: 'x', 'y', 'values'
+# make_heatmap_and_save(df_data, grid_size=0.1, heatmap_output_path='heatmap.png', shapefile_output_path='heatmap.shp', crs='epsg:32633')

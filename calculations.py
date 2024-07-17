@@ -50,7 +50,7 @@ def blob(image, k, b, circ1, circ2, iner1, iner2, conv1, conv2, area_min, area_m
     
 def AI_calculation(image_path):
     #Best parameters are stored privately and not shared on GitHub.
-    params= []
+    params= [7, 7, 0.7389686996692504, 1, 0.37438265817010036, 1, 0.526007653770587, 1, 42.77016806408365, 483.1027394129678]
     #Dummy function for
-    value = blob(image_path,params )
+    value = blob(image_path, 7, 7, 0.7389686996692504, 1, 0.37438265817010036, 1, 0.526007653770587, 1, 42.77016806408365, 483.1027394129678)
     return value
