@@ -71,7 +71,7 @@ def capture_image(picam2, counter, capture_images, longitude, latitude):
     
 #     # Capture a high-resolution image
 #     logging.info("Capturing image...")
-#     picam2.capture_file("image16.png", format="png")
+#     picam2.capture_file("image20.png", format="png")
 #     logging.info("Image captured and saved as image.png.")
 
 # except Exception as e:
@@ -85,10 +85,10 @@ def capture_image(picam2, counter, capture_images, longitude, latitude):
 
 
 
-# from picamera2 import Picamera2
+# # from picamera2 import Picamera2
 
-# picam2 = Picamera2()
-# picam2.start()
-# picam2.capture_file("test_image.jpg")
-# picam2.stop()
-# picam2.close()
+# # picam2 = Picamera2()
+# # picam2.start()
+# # picam2.capture_file("test_image.jpg")
+# # picam2.stop()
+# # picam2.close()

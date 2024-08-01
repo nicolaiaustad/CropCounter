@@ -85,12 +85,12 @@ picam2 = Picamera2()
 picam2.configure(picam2.create_video_configuration(main={"size": (3280, 2464)}))
 picam2.set_controls({
     "AnalogueGain": 1,  # Adjust gain to reduce noise
-    "ExposureTime": 50000,  # Increase exposure time for better lighting
-    "Brightness": 0.6,  # Adjust brightness as needed
+    "ExposureTime": 30000,  # Increase exposure time for better lighting
+    "Brightness": 0.4,  # Adjust brightness as needed
     "Contrast": 2,  # Increase contrast for better distinction
-    "Saturation": 0.7,  # Increase saturation for more vibrant colors
-    "Sharpness": 2.0,  # Increase sharpness for better detail
-    # "AwbMode": "auto",  # Auto white balance
+    "Saturation": 0.5,  # Increase saturation for more vibrant colors
+    "Sharpness": 1.8,  # Increase sharpness for better detail
+    #"awb_mode": "off",  # Auto white balance
     "AeEnable": True  # Enable automatic exposure
 })
 output = StreamingOutput()
