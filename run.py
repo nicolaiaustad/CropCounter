@@ -178,18 +178,60 @@
 #     else:
 #         main(capture_images=False)
 
+# import time
+# import logging
+# import sys
+
+# # Configure logging to log to both file and console if not already configured
+# if not logging.getLogger().hasHandlers():
+#     logger = logging.getLogger()
+#     logger.setLevel(logging.INFO)
+
+#     # File handler
+#     file_handler = logging.FileHandler('/home/nicolaiaustad/Desktop/CropCounter/run.log')
+#     file_handler.setLevel(logging.INFO)
+
+#     # Console handler
+#     console_handler = logging.StreamHandler(sys.stdout)
+#     console_handler.setLevel(logging.INFO)
+
+#     # Formatter
+#     formatter = logging.Formatter('%(asctime)s %(message)s')
+#     file_handler.setFormatter(formatter)
+#     console_handler.setFormatter(formatter)
+
+#     # Add handlers to the logger
+#     logger.addHandler(file_handler)
+#     logger.addHandler(console_handler)
+
+# def main():
+#     logging.info('Program started.')
+#     try:
+#         while True:
+#             logging.info('Program running...')
+#             time.sleep(5)  # Log a message every 5 seconds
+#     except Exception as e:
+#         logging.error(f"Program encountered an error: {e}")
+#     except KeyboardInterrupt:
+#         logging.info('Program interrupted by user.')
+#     finally:
+#         logging.info('Program stopped.')
+#         # Remove handlers
+#         for handler in logging.getLogger().handlers[:]:
+#             logging.getLogger().removeHandler(handler)
+#             handler.close()
+
+# if __name__ == "__main__":
+#     main()
+
+
 
 
 import time
 import logging
 
-# Configure logging to log to both file and console
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
-
-# File handler
-file_handler = logging.FileHandler('/home/nicolaiaustad/Desktop/CropCounter/run.log')
-file_handler.setLevel(logging.INFO)
 
 # Console handler
 console_handler = logging.StreamHandler()
@@ -197,18 +239,17 @@ console_handler.setLevel(logging.INFO)
 
 # Formatter
 formatter = logging.Formatter('%(asctime)s %(message)s')
-file_handler.setFormatter(formatter)
 console_handler.setFormatter(formatter)
 
 # Add handlers to the logger
-logger.addHandler(file_handler)
-logger.addHandler(console_handler)
+if not logger.hasHandlers():
+    logger.addHandler(console_handler)
 
 def main():
     logging.info('Program started.')
     try:
         while True:
-            logging.info('Program running...lol')
+            logging.info('Program running...')
             time.sleep(5)  # Log a message every 5 seconds
     except Exception as e:
         logging.error(f"Program encountered an error: {e}")
@@ -216,14 +257,13 @@ def main():
         logging.info('Program interrupted by user.')
     finally:
         logging.info('Program stopped.')
+        # Remove handlers
+        for handler in logging.getLogger().handlers[:]:
+            logging.getLogger().removeHandler(handler)
+            handler.close()
 
 if __name__ == "__main__":
     main()
-
-
-
-
-
 
 
 
