@@ -21,6 +21,7 @@ latest_gps_data = {
     "latitude": None,
     "longitude": None,
     "fix_quality": None,
+    "satellites": None,
     "speed_knots": None,
     "has_fix": False
 }
@@ -54,12 +55,14 @@ gps_thread.start()
 
 def get_gps():
     global latest_gps_data
+    
     if latest_gps_data["has_fix"] and (latest_gps_data["fix_quality"]==1 or latest_gps_data["fix_quality"]==2) :
         longitude = latest_gps_data["longitude"]
         latitude = latest_gps_data["latitude"]
+        satellites= latest_gps_data["satellites"]
         speed = latest_gps_data["speed_knots"]
         timestamp = latest_gps_data["timestamp"]
-        return longitude, latitude
+        return longitude, latitude, satellites
     else:
-        return 0,0 #Long and lat = 0  means not valid gps_coordiantes retrieved
+        return 0,0,satellites  #Long and lat = 0  means not valid gps_coordiantes retrieved
 

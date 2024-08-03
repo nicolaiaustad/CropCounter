@@ -11,6 +11,7 @@ import seaborn as sns
 import matplotlib.ticker as ticker
 from shapely.geometry import Point
 import os
+import logging
 
 # # Create CRS objects
 proj_wgs84 = pyproj.CRS('EPSG:4326')  # WGS84
@@ -250,7 +251,8 @@ def save_heatmap_to_shapefile(df_data, output_path, crs):
     gdf = gpd.GeoDataFrame(df_data, crs=crs, geometry=geometry)
     gdf_wgs84 = gdf.to_crs(epsg=4326)
     gdf_wgs84.to_file(output_path, driver='ESRI Shapefile')
-    print(f"Shapefile saved to {output_path}")
+    #print(f"Shapefile saved to {output_path}")
+    logging.info(f"Shapefile saved to {output_path}")
 
 def interpolate_and_smooth(pivot_table, method='cubic', sigma=1, min_value=0, max_value=500):
     # Interpolate missing values in the pivot table
@@ -296,6 +298,10 @@ def make_heatmap_and_save(df_data, grid_size, heatmap_output_path, shapefile_out
                 })
     df_data_interpolated = pd.DataFrame(df_data_interpolated)
     
+    save_directory = "/home/dataplicity/remote"
+    if not os.path.exists(save_directory):
+        os.makedirs(save_directory)
+        
     # Create and save the heatmap
     plt.figure(figsize=(12, 10))
     sns.heatmap(grid_z, cmap='RdYlGn', annot=False, fmt="f", cbar=True, xticklabels=False, yticklabels=False)
@@ -305,8 +311,11 @@ def make_heatmap_and_save(df_data, grid_size, heatmap_output_path, shapefile_out
     plt.ylabel('UTM Y Coordinate')
     plt.savefig(heatmap_output_path)
     plt.savefig("/home/nicolaiaustad/Desktop/heatmap_1sigma.png")
+     
+    plt.savefig(f"{save_directory}/wormhole_heatmap_new05.png")
     plt.close()
-    print(f"Heatmap saved to {heatmap_output_path}")
+    logging.info(f"Heatmap saved to {heatmap_output_path}")
+    #print(f"Heatmap saved to {heatmap_output_path}")
 
     # Save to shapefile
     save_heatmap_to_shapefile(df_data_interpolated, shapefile_output_path, crs)

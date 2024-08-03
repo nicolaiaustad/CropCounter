@@ -2,6 +2,7 @@ import os
 import subprocess
 import sys
 import shutil
+import logging
 
 def check_permissions():
     if os.geteuid() != 0:
@@ -14,7 +15,8 @@ def mount_usb(mount_point, device):
     for line in mount_output.splitlines():
         if device in line:
             current_mount_point = line.split()[2]
-            print(f"{device} is already mounted at {current_mount_point}")
+            logging.info(f"{device} is already mounted at {current_mount_point}")
+            # print(f"{device} is already mounted at {current_mount_point}")
             return current_mount_point
     
     os.makedirs(mount_point, exist_ok=True)
@@ -49,16 +51,20 @@ def copy_settings_and_shapefiles(mount_point, settings_dest, shapefiles_dest):
     # Copy settings file
     if os.path.exists(settings_file):
         shutil.copy(settings_file, settings_dest)
-        print(f"Copied {settings_file} to {settings_dest}")
+        # print(f"Copied {settings_file} to {settings_dest}")
+        logging.info(f"Copied {settings_file} to {settings_dest}")
     else:
-        print(f"{settings_file} not found")
+        logging.info(f"{settings_file} not found")
+        # print(f"{settings_file} not found")
     
     # Copy shapefiles folder
     if os.path.exists(shapefiles_folder):
         shutil.copytree(shapefiles_folder, shapefiles_dest, dirs_exist_ok=True)
-        print(f"Copied {shapefiles_folder} to {shapefiles_dest}")
+        logging.info(f"Copied {shapefiles_folder} to {shapefiles_dest}")
+        # print(f"Copied {shapefiles_folder} to {shapefiles_dest}")
     else:
-        print(f"{shapefiles_folder} not found")
+        logging.info(f"{shapefiles_folder} not found")
+        # print(f"{shapefiles_folder} not found")
 
 def find_shapefile(directory):
     for root, dirs, files in os.walk(directory):

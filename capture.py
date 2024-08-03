@@ -4,6 +4,7 @@ from picamera2 import Picamera2
 import time
 import io
 import os
+import logging
 
 def capture_image(picam2, counter, capture_images, longitude, latitude):
     #Add logic to extract gps coordinates for images taken
@@ -12,14 +13,17 @@ def capture_image(picam2, counter, capture_images, longitude, latitude):
     if not capture_images:
         image_stream = io.BytesIO()
         picam2.capture_file(image_stream, format='png')
-        print("Captured image but not saving it.")
+        # print("Captured image but not saving it.")
+        #logging.info("Captured image but not saving it.")
     else:
         directory = "/home/nicolaiaustad/Desktop/CropCounter/images/Folder_A"
         if not os.path.exists(directory):
             os.makedirs(directory)
         filename = f"{directory}/image_{timestamp}__lat{latitude}_lon{longitude}.png"
         picam2.capture_file(filename)
-        print(f"Captured {filename}")
+        
+        logging.info(f"Captured {filename}")
+        #print(f"Captured {filename}")
         
     return latitude, longitude
 
@@ -92,3 +96,4 @@ def capture_image(picam2, counter, capture_images, longitude, latitude):
 # # picam2.capture_file("test_image.jpg")
 # # picam2.stop()
 # # picam2.close()
+
